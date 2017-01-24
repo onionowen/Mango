@@ -11,7 +11,7 @@
 			"title"			:"DROOM 夢門",
 			"status"		:"on",
 			"type"			:"MobileGame",
-			"tags"			:"益智 解謎 手機遊戲 lowpoly",
+			"tags"			:"益智 解謎 手機遊戲 LowPoly",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
 			"team"			:"孫宇、李思穎",
@@ -50,14 +50,14 @@
 			"title"			:"Fred",
 			"status"		:"on",
 			"type"			:"StopMotion",
-			"tags"			:"",
+			"tags"			:"偶動畫",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
 			"team"			:"曹榮璇、傅芷妍、宋翊瑄",
 			"description"	:"主角Fred因為好奇外面多彩的世界而興起想離開北極的念頭，而展開的探索旅程。讓我們來跟主角Fred一起遊歷這段新路旅程吧 !",
 			"picture"		:"http://i.imgur.com/q4kq0DP.jpg",
-			"site_link"		:"A",
-			"vedio_link"	:"A"
+			"site_link"		:"",
+			"vedio_link"	:""
 		},
 		{
 			"title"			:"",
