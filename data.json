@@ -1,0 +1,76 @@
+{
+	"Information":
+	{
+		"update_time"	:"01/24",
+		"bulletin"		:"",
+		"hot_tags"		:"Game File StopMotion"
+	},
+	"Mango":
+	[
+		{
+			"title"			:"DROOM 夢門",
+			"status"		:"",
+			"type"			:"MobileGame",
+			"tags"			:"益智 解謎 手機遊戲 lowpoly",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計學系",
+			"team"			:"孫宇、李思穎",
+			"description"	:"DROOM是一款移動平台的益智解謎遊戲。<br>透過吃掉地圖上的球來相加或抵消、運用地圖中的各種機關，以達成過關條件。",
+			"picture"		:"https://ttesttes93405.github.io/SunYuLab/DROOM/Media/Pic/ICON.png",
+			"site_link"		:"https://www.facebook.com/122589321556716/",
+			"vedio_link"	:"https://www.youtube.com/watch?v=68_ngZhCrh0&feature=youtu.be"
+		},
+		{
+			"title"			:"墨術 Magink",
+			"status"		:"",
+			"type"			:"MobileGame",
+			"tags"			:"",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計學系",
+			"team"			:"",
+			"description"	:"一款結合水墨與Pixel風格的2D動作手機遊戲<br>故事敘述一位名為司馬雲的少女，經歷了家族滅亡後，踏上尋找兄長的旅程。",
+			"picture"		:"https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/13782163_107188896389224_2653048446743291415_n.jpg?oh=7c297ed70ea10dc94550304209e2d31c&oe=59179192",
+			"site_link"		:"https://www.facebook.com/INT.Magink/",
+			"vedio_link"	:""
+		},
+		{
+			"title"			:"終焉的迴響：護界者之歌",
+			"status"		:"",
+			"type"			:"PCGame",
+			"tags"			:"",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計學系",
+			"team"			:"",
+			"description"	:"",
+			"picture"		:"https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/14991919_180035512457526_2948898398882703169_n.png?oh=3d9cfe8e7410c1a5e49dce661f8eed3a&oe=5901CDCC",
+			"site_link"		:"https://www.facebook.com/175755329552211/",
+			"vedio_link"	:""
+		},
+		{
+			"title"			:"Fred",
+			"status"		:"on",
+			"type"			:"StopMotion",
+			"tags"			:"",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計學系",
+			"team"			:"曹榮璇、傅芷妍、宋翊瑄",
+			"description"	:"主角Fred因為好奇外面多彩的世界而興起想離開北極的念頭，而展開的探索旅程。讓我們來跟主角Fred一起遊歷這段新路旅程吧 !",
+			"picture"		:"http://i.imgur.com/q4kq0DP.jpg",
+			"site_link"		:"A",
+			"vedio_link"	:"A"
+		},
+		{
+			"title"			:"",
+			"status"		:"",
+			"type"			:"",
+			"tags"			:"",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計學系",
+			"team"			:"",
+			"description"	:"",
+			"picture"		:"",
+			"site_link"		:"",
+			"vedio_link"	:""
+		}
+	]
+}
