@@ -107,7 +107,9 @@ function MakeTags(tags){
 	var ret = "";	
 	
 	for (var i=0;i<arr.length;i++){
-		ret += "<p>" + arr[i] + "</p>";
+		if (arr[i] != ""){
+			ret += "<p>" + arr[i] + "</p>";
+		}
 	}
 	
 	return ret;
@@ -118,8 +120,9 @@ function AppendUnit(){
 	$("#backAllList").hide();
 	for ( var i=0; i<unitList.length; i++ ){
 		var unit = CreateUnit(i);
-		if (unit != null)
-			$("#root").append(unit);
+		if (unit != null){
+			root.append(unit);
+		}
 	}
 	RegEvent();
 	GoTop();
