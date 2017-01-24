@@ -233,11 +233,12 @@ l,p,h1,h2,h3{
 	width:90%;	
 	margin:5%;
 	display: inline-block;
+	border-radius: 5px;
 }
 .pic[src="pic/mango_sq.svg"]{
 	opacity: 0.5;
 	border: 1px dashed rgba(0, 0, 0, 0.5);
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 
@@ -409,7 +410,7 @@ l,p,h1,h2,h3{
 	
 	.fold{
 		height:auto;
-		border-left: 20px solid rgba(255, 215, 41, 0.8);		
+		border-left: 0px solid rgba(255, 215, 41, 0.8);		
 		border-right: 0px solid rgba(255, 215, 41, 0.8);
 	}
 	
@@ -547,7 +548,8 @@ l,p,h1,h2,h3{
 		padding:20px;
 		
 		border-left: 20px solid rgba(255, 215, 41, 0.0);
-		border-right: 60px solid rgba(255, 215, 41, 0.0);
+		border-right: 40px solid rgba(255, 215, 41, 0.0);
+		padding-right:20px;
 			
 		transition-property			: padding,border;
 		-moz-transition-property	: padding,border;
@@ -561,8 +563,8 @@ l,p,h1,h2,h3{
 		
 	}
 	.unit:hover{
-		border-left: 20px solid rgba(255, 215, 41, 0.4);
-		border-right: 60px solid rgba(255, 215, 41, 0.4);
+		border-left-color: rgba(255, 215, 41, 0.4);
+		border-right-color:  rgba(255, 215, 41, 0.4);
 	}
 	.l-div{	
 		width:130px;
@@ -603,6 +605,7 @@ l,p,h1,h2,h3{
 	.fold{
 		padding-top: 25px;
 		padding-bottom: 25px;
+		padding-right:60px;
 		
 		height:auto;
 		border-left: 20px solid rgba(255, 215, 41, 0.8);
@@ -644,6 +647,18 @@ l,p,h1,h2,h3{
 		margin:0px 10px 0px 0;
 		border-radius: 5px;
 	}
+	
+	#hotTags{
+		padding:0 20%;
+	}
+	
+	#searchBox{
+		padding: 0px 0;
+	}
+	#serachBtn{
+		display: none;
+	}
+	
 }
 
 
