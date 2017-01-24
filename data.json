@@ -9,7 +9,7 @@
 	[
 		{
 			"title"			:"DROOM 夢門",
-			"status"		:"",
+			"status"		:"on",
 			"type"			:"MobileGame",
 			"tags"			:"益智 解謎 手機遊戲 lowpoly",
 			"university"	:"銘傳大學",
@@ -22,7 +22,7 @@
 		},
 		{
 			"title"			:"墨術 Magink",
-			"status"		:"",
+			"status"		:"on",
 			"type"			:"MobileGame",
 			"tags"			:"",
 			"university"	:"銘傳大學",
@@ -35,7 +35,7 @@
 		},
 		{
 			"title"			:"終焉的迴響：護界者之歌",
-			"status"		:"",
+			"status"		:"on",
 			"type"			:"PCGame",
 			"tags"			:"",
 			"university"	:"銘傳大學",
