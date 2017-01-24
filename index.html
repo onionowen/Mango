@@ -1,13 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-TW" prefix="og:http://ogp.me/ns#">
 	
     <head>        
 		<meta charset="utf-8">
-        
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
         <title>Mango</title>
 		
 		<script src="jquery/jquery-3.0.0.min.js"></script>
 		<link href="main.css" rel="stylesheet">
 		<script src="main.js"></script>
+		
+		<meta property="og:title" content="Mango"/>
+		<meta property="og:description" content="Mango 大　平　台"/>
+		<meta property="og:site_name" content="Mango"/>
+		<meta name="theme-color" content="#ffd729"/>
+    	<meta name="msapplication-navbutton-color" content="#ffd729"/> 
 		
     </head>
     
@@ -22,16 +31,15 @@
 							<img src="pic/search.png"/><p>搜尋</p>
 						</div>
 					</div>
-					<br>
 					
+					<div id="hotTags" class="tags"></div>
 					<div id="information">					
 						<l>資料更新日期：</l><l id="updateTime"></l><br>
 						<l id="bulletin">						
 						</l><br>
 					</div>
 					
-					<div id="hotTags" class="tags">
-					</div>
+					
 					
 				</div>			
 			</div>
