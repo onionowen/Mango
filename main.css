@@ -25,6 +25,13 @@ img {
   margin-left: auto;
 }
 
+.text-right	{	text-align: right;	}
+.text-center{	text-align: center;	}
+.text-left	{	text-align: left;	}
+.padding10	{	padding:10px;	}
+.padding20	{	padding:20px;	}
+.padding30	{	padding:30px;	}
+
 /*-----boostrap----*/
 
 body,html{
@@ -96,6 +103,7 @@ l,p,h1,h2,h3{
 	line-height: 1.5;
 }
 
+
 #backAllList{
 	padding:20px 0;
 	width:100%;
@@ -105,11 +113,11 @@ l,p,h1,h2,h3{
 }
 
 #nav{
-	padding-top: 40px;
 	text-align:center;
-	
 	background-color: #ffd729;
 }
+
+
 #navLogo{
 	padding: 50px;
 	opacity: 0.9;
@@ -526,6 +534,9 @@ l,p,h1,h2,h3{
 		margin:0px;
 	}
 	
+	#floatList{
+		display: none;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -661,6 +672,15 @@ l,p,h1,h2,h3{
 		display: none;
 	}
 	
+	#floatList{
+		left: 0;
+		top:100%;
+		position: fixed;
+		display: inline-block;
+		width:200px;
+		height:100px;
+		margin-top: -100px;
+	}
 }
 
 
