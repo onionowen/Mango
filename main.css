@@ -8,10 +8,12 @@ body {
   margin: 0;
 }
 a {
-  background-color: transparent;
+  	background-color: transparent;
+	text-decoration-line: none;
 }
 a:active,a:hover {
-  outline: 0;
+  	outline: 0;
+	text-decoration-line: none;
 }
 img {
 	page-break-inside: avoid;
