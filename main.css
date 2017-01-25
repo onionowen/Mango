@@ -255,7 +255,7 @@ l,p,h1,h2,h3{
 
 .team{
 	text-align: left;
-	padding: 10px;
+	padding: 0 10px;
 	opacity: 0.8;	
 }
 .team p{
@@ -271,13 +271,9 @@ l,p,h1,h2,h3{
 .description{
 	height:auto;
 	text-align: left;
-	overflow-y: hidden;
-	
+	overflow-y: hidden;	
 	padding: 0px;	
 }
-
-
-
 .description:hover{
 	overflow-y: auto;
 }
@@ -291,7 +287,7 @@ l,p,h1,h2,h3{
 	/*color:white;*/
 	opacity: 0.7;
 }
-.university p:hover{
+.university p:first-child:hover{
 	opacity: 1;
 }
 
@@ -372,6 +368,7 @@ l,p,h1,h2,h3{
 }
 
 
+
 @media (max-width: 1200px){
 	
   	.container {
@@ -420,7 +417,6 @@ l,p,h1,h2,h3{
 		padding-top:30px;
 		padding-bottom:0;
 	}
-	
 	.title p{
 		height:60px;
 		line-height: 60px;
@@ -576,6 +572,11 @@ l,p,h1,h2,h3{
 	.title{
 		width:800px;
 	}
+	.title p{
+		height: 80px;
+		line-height: 80px;
+	}
+	
 	.team p{
 		line-height: 30px;
 		font-size: 18px;
@@ -619,6 +620,7 @@ l,p,h1,h2,h3{
 	}
 	
 	.foldDiv{	
+		padding-top: 0;
 		padding-left: 150px;
 		box-sizing: border-box;
 		width:100%;
@@ -639,7 +641,7 @@ l,p,h1,h2,h3{
 	}
 	
 	.university{
-		margin:10px 0 20px 0;
+		margin:0 0 20px 0;
 	}
 	
 	.university p{
