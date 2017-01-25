@@ -87,17 +87,17 @@
 			"type"			:"2DAnimation"
 		},
 		{
-			"title"			:"",
-			"status"		:"",
-			"team"			:"",
-			"description"	:"",
-			"picture"		:"",
-			"university"	:"銘傳大學",
-			"department"	:"數位媒體設計學系",
-			"tags"			:"",
-			"site_link"		:"",
+			"title"			:"喬伊塔號",
+			"status"		:"on",
+			"team"			:"隨鄭下海",
+			"description"	:"擁有虛擬實境(Virtual Reality)懸疑推理加上密室逃脫，玩家必須破解謎題、找齊所有線索才能破關。<br>此外，我們在遊戲設計了計時機制，除了增加遊玩時的緊張感，也希望玩家能夠有效利用時間順利完成任務。",
+			"picture"		:"https://lh3.googleusercontent.com/UGQJ3wb5ZjXCKwS4zkidsWIaPjk2AhPWc3U3-xcUonsYTDG_fIbopbXw3pIALdT6Osr30i2DFyoXpZo=w1920-h944",
+			"university"	:"中國科技大學",
+			"department"	:"數位多媒體設計系",
+			"tags"			:"VR 恐怖解謎 密室逃脫 HTCVive",
+			"site_link"		:"https://goo.gl/jRcraH",
 			"vedio_link"	:"",
-			"type"			:""
+			"type"			:"Else"
 		},
 		{
 			"title"			:"",
