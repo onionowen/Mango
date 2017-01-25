@@ -101,8 +101,11 @@ l,p,h1,h2,h3{
 	padding: 0;	
 	font-weight: 400;
 	line-height: 1.5;
+	display: inline;
 }
-
+#topSubmit{	
+	border-bottom: 1px solid rgba(227, 216, 169, 0.6);
+}
 
 #backAllList{
 	padding:20px 0;
