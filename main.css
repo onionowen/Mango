@@ -105,9 +105,6 @@ l,p,h1,h2,h3{
 	line-height: 1.5;
 	display: inline;
 }
-#topSubmit{	
-	border-bottom: 1px solid rgba(227, 216, 169, 0.6);
-}
 
 #backAllList{
 	padding:20px 0;
@@ -118,6 +115,7 @@ l,p,h1,h2,h3{
 }
 
 #nav{
+	padding-top: 80px;
 	text-align:center;
 	background-color: #ffd729;
 }
@@ -148,8 +146,6 @@ l,p,h1,h2,h3{
 
 #top{
 	display: inline-block;
-	border-radius: 5px;
-	padding: 10px 0;
 	width:100%;
 }
 
@@ -174,18 +170,18 @@ l,p,h1,h2,h3{
 	
 	font-size: 16px;
 	padding:5px;
-	margin: 0px;
+	margin: 5px;
 	
-	height:40px;
-	width:400px;
+	height:30px;
+	width:300px;
 	
 	color:#8e4111;
 	background-color: rgba(255, 255, 255);
 	text-align: center;
 }
 #search:focus{	
-	border: 1px solid rgba(142, 65, 17, 0.5);
-	box-shadow: 0px 0px 5px 1px rgba(142, 65, 17, 0.5);
+	border: 0px solid rgba(142, 65, 17, 0.5);
+	box-shadow: 0px 0px 5px rgba(142, 65, 17, 0.5);
 }
 
 .LOGO{
@@ -196,6 +192,7 @@ l,p,h1,h2,h3{
 .LOGO-m	{	height:60px;	}
 .LOGO-l	{	height:100px;	}
 .LOGO-xl{	height:150px;	}
+
 
 /*----------------------------------------*/
 
@@ -318,6 +315,20 @@ l,p,h1,h2,h3{
 }
 
 
+.Obtn{
+	border-radius: 100%;
+	height:30px;
+	width:30px;
+	display: inline-block;
+	cursor: pointer;
+	padding:5px;
+	margin:20px;
+}
+.Obtn img{
+	height:30px;
+	width:30px;
+}
+
 
 .linkDiv{
 	padding: 10px;
@@ -378,6 +389,28 @@ l,p,h1,h2,h3{
 	background-color: #8E4111;
 	color: #ffd729;
 	margin:20px;	
+}
+#toolBar{
+	width:100%;
+	display: inline-block;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+	opacity: 0;
+}
+#toolBar:hover{
+	opacity: 1;
+}
+
+#toolBar .linkbtn:hover{
+	background-color: rgba(255, 255, 255, 0.1);
+}
+#toolBar .linkbtn{
+	border-radius: 0;
+	float: left;
+	padding:10px;
+}
+#toolBar .linkbtn p{
+	color:#815940;
+	
 }
 
 
@@ -484,11 +517,12 @@ l,p,h1,h2,h3{
 	#searchBox{
 		width:100%;
 		box-sizing: border-box;
-		padding:0px 20px;
+		padding:0px 0px;
+		float: none;
 	}
 	#search{
-		width:100%;
-		height:100px;
+		width:80%;
+		height:80px;
 		font-size: 35px;
 	}
 	
@@ -541,6 +575,9 @@ l,p,h1,h2,h3{
 	
 	#floatList{
 		display: none;
+	}
+	#toolBar{
+		opacity: 1;
 	}
 }
 
@@ -685,6 +722,13 @@ l,p,h1,h2,h3{
 		width:200px;
 		height:100px;
 		margin-top: -100px;
+	}
+	#toolBar{
+		transition			:opacity 0.5s;
+		-moz-transition		:opacity 0.5s;
+		-webkit-transition	:opacity 0.5s;
+		-o-transition		:opacity 0.5s;
+		
 	}
 }
 
