@@ -2,7 +2,7 @@
 var debug;
 $(function(){
 	
-	debug = (document.location.href.substr(0,4) == "file");
+	debug = (document.location.href.substr(0,4) == "fi le");
 	
 	SetRoot();
 	
@@ -167,6 +167,8 @@ function WelcomLogoFade(){
 	}
 	else{
 		var n = (Math.random()*1000) + 1000;
+		
+		$("#welcomeMsgWord").text("");		
 		$("#welcome").delay(n).fadeOut(500);
 	}
 	
@@ -234,8 +236,8 @@ function Search(txt){
 	else{
 		RegEvent();
 	}
-		GoTop();	GoTop();
 	
+	GoTop();	
 }
 
 
