@@ -1,8 +1,8 @@
 {
 	"Information":
 	{
-		"update_time"	:"01/25",
-		"bulletin"		:"提交的資料，日後都可以再做修改。<br>",
+		"update_time"	:"01/26",
+		"bulletin"		:"",
 		"hot_tags"		:""
 	},
 	"Mango":
@@ -100,17 +100,17 @@
 			"type"			:"VR"
 		},
 		{
-			"title"			:"",
-			"status"		:"",
-			"team"			:"",
-			"description"	:"",
-			"picture"		:"",
+			"title"			:"SOLAR",
+			"status"		:"on",
+			"team"			:"龐普動畫工作室",
+			"description"	:"太陽女神的光芒照耀著大地，然而泰爾與小洛卻只能生活在地底，他們懷抱著追求陽光的夢想，是甚麼讓他們勇往直前、接受未知的命運？而最終，他們是否真能實現夢想呢？",
+			"picture"		:"http://i.imgur.com/M3g67hQ.jpg",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
-			"tags"			:"",
-			"site_link"		:"",
+			"tags"			:"3D動畫 殭屍 Zombie 3Danimation 畢業製作",
+			"site_link"		:"https://www.facebook.com/-SOLAR-3D-Animation-233415760443220/",
 			"vedio_link"	:"",
-			"type"			:""
+			"type"			:"3DAnimation"
 		},
 		{
 			"title"			:"",
