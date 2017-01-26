@@ -31,6 +31,10 @@ $(function(){
 		}	
 	})
 	
+	$("#toolBarToggle").click(function(){
+		$("#toolBar").toggle();
+	});
+	
 	$("#backAllList").hide();
 	$("#backAllList").click(function(){		
 		root.html("");
@@ -83,18 +87,21 @@ function SetRoot(){
 function CreateUnit(inx){			
 	var clone = model;
 	
+	
 	if (unitList[inx] == null) 			return null;
 	if (unitList[inx]["status"] == "") 	return null;
 	
 	clone = clone.replace("[id]","unit-" + inx).replace("[index]",inx);
 	
 	for (var i=0; i<unitPropertyList.length;i++){
+		
 		var unitProperty = unitList[inx][unitPropertyList[i]];
 		if (unitProperty == "") unitProperty = unitDefaultProperty[i];
 		
-		if (unitPropertyList[i] == "tags") unitProperty = MakeTags(unitProperty);
+		if (unitPropertyList[i] == "tags") unitProperty = MakeTags(unitProperty);			
 		
 		clone = clone.replace("[" + unitPropertyList[i] + "]", unitProperty);
+		
 	}	
 	return clone;	
 }
@@ -248,12 +255,16 @@ function RegEvent(){
 		});
 	})
 	
-	$(".university p").each(function(){
+	$(".university p:first-child").each(function(){
 		$(this).click(function(){
 			var str = $(this).text();			
 			Search(str);
 		});
 	})
+	
+	
+	$(".linkDiv a[href='']").addClass("deadLink").removeAttr("href");
+	
 }
 
 
