@@ -45,7 +45,7 @@ $(function(){
 function SetInformation(){
 	
 	$("#updateTime").text(information["update_time"]);
-	$("#bulletin").text(information["bulletin"]);
+	$("#bulletin").html(information["bulletin"]);
 	$("#hotTags").html(MakeTags(information["hot_tags"]));
 }
 
