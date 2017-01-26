@@ -367,8 +367,11 @@ l,p,h1,h2,h3{
 	padding-left: 10px;
 	color:white;		
 }
-.linkDiv .linkbtn[href=""]{
-	display: none;
+.linkDiv .deadLink{
+	/*display: none;*/
+	background-color:rgba(129, 89, 64, 0.2);
+	/*border: 1px dashed rgba(129, 89, 64, 0.4);*/
+	cursor: auto;
 }
 
 .site-link{	
@@ -403,14 +406,8 @@ l,p,h1,h2,h3{
 #toolBar .linkbtn:hover{
 	background-color: rgba(255, 255, 255, 0.1);
 }
-#toolBar .linkbtn{
-	border-radius: 0;
-	float: left;
-	padding:10px;
-}
 #toolBar .linkbtn p{
-	color:#815940;
-	
+	color:#815940;	
 }
 
 
@@ -437,6 +434,13 @@ l,p,h1,h2,h3{
 		height:240px;
 		margin: 0px;
 		padding:20px ;
+		
+		border-left-style: solid;
+		border-right-style: solid;
+		border-left-width: 30px;
+		border-right-width: 30px;
+		border-left-color: rgba(255, 215, 41, 0);		
+		border-right-color: rgba(255, 215, 41, 0);	
 	}
 	
 	.l-div{
@@ -453,13 +457,14 @@ l,p,h1,h2,h3{
 	
 	.fold{
 		height:auto;
-		border-left: 0px solid rgba(255, 215, 41, 0.8);		
-		border-right: 0px solid rgba(255, 215, 41, 0.8);
+		border-left-color: rgba(255, 215, 41, 0.8);		
+		border-right-color: rgba(255, 215, 41, 0);	
 	}
 	
 	.foldDiv{
 		box-sizing: border-box;
 		width:100%;
+		padding:20px;
 		padding-top:30px;
 		padding-bottom:0;
 	}
@@ -559,7 +564,7 @@ l,p,h1,h2,h3{
 	.linkDiv{
 		float:none;
 		text-align: center;
-		margin: 20px 0;
+		margin: 50px 0;
 		padding: 0px;
 		height:auto;
 		width:100%;
@@ -567,7 +572,7 @@ l,p,h1,h2,h3{
 	.linkDiv .linkbtn{
 		box-sizing: border-box;
 		height:100px;
-		width:49%;
+		width:49.5%;
 		border-radius: 5px;
 		padding:10;
 		margin:0px;
@@ -578,6 +583,24 @@ l,p,h1,h2,h3{
 	}
 	#toolBar{
 		opacity: 1;
+		display: none;
+	}
+	#toolBar .linkbtn{
+		border-radius: 0;
+		display: block;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+		padding:40px;	
+		margin:0;
+	}	
+	#toolBarToggle{
+		display: block;
+		padding: 40px;
+		cursor: pointer;
+		text-align: left;
+	}
+	#toolBarToggle img{
+		height:80px;
+		width:80px;
 	}
 }
 
@@ -729,6 +752,15 @@ l,p,h1,h2,h3{
 		-webkit-transition	:opacity 0.5s;
 		-o-transition		:opacity 0.5s;
 		
+	}
+	#toolBar .linkbtn{
+		border-radius: 0;
+		float: left;
+		padding:10px 20px;	
+		margin:0;
+	}
+	#toolBarToggle{
+		display: none;
 	}
 }
 
