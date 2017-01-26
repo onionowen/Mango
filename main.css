@@ -82,7 +82,9 @@ body,html{
 	text-align: center;
 }
 #welcomeMsg{
+	display: inline-block;
 	position: relative;
+	width:300px;
 	top:50%;
 	margin-top: -150px;
 }
