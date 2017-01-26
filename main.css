@@ -412,8 +412,6 @@ l,p,h1,h2,h3{
 	color:#815940;	
 }
 
-
-
 @media (max-width: 1200px){
 	
   	.container {
@@ -604,6 +602,10 @@ l,p,h1,h2,h3{
 		height:80px;
 		width:80px;
 	}
+	
+	.mobile-hide{
+		display: none;
+	}
 }
 
 @media (min-width: 1200px) {
@@ -762,6 +764,17 @@ l,p,h1,h2,h3{
 		margin:0;
 	}
 	#toolBarToggle{
+		display: none;
+	}
+	.happy{
+		padding:20px;
+		background-color: red;
+		color:black;
+		font-family: "標楷體";
+		font-size: 30px;
+		cursor: default;
+	}
+	.pc-hide{
 		display: none;
 	}
 }
