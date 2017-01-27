@@ -22,16 +22,16 @@
 			
 		},
 		{
-			"title"			:"墨術 Magink",
-			"status"		:"",
-			"team"			:"",
-			"description"	:"一款結合水墨與Pixel風格的2D動作手機遊戲<br>故事敘述一位名為司馬雲的少女，經歷了家族滅亡後，踏上尋找兄長的旅程。",
-			"picture"		:"https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/13782163_107188896389224_2653048446743291415_n.jpg?oh=7c297ed70ea10dc94550304209e2d31c&oe=59179192",
+			"title"			:"墨術",
+			"status"		:"on",
+			"team"			:"國際宅宅interNerdtion",
+			"description"	:"主角可使用三種屬性的技能，分別是火、冰和雷，每種屬性皆有兩個一般技能和一個大絕招。施放大絕招後，該屬性會被禁用三十秒。玩家可以隨時因應關卡的不同或是個人喜好去切換屬性來遊玩，也可以選擇以三十秒不能使用該屬性技能為代價，來施放強力的大絕招。",
+			"picture"		:"http://i.imgur.com/Dug0kji.jpg",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
-			"tags"			:"",
+			"tags"			:"遊戲 2D RPG Pixel Mobile",
 			"site_link"		:"https://www.facebook.com/INT.Magink/",
-			"vedio_link"	:"",
+			"vedio_link"	:"https://www.youtube.com/watch?v=QOtZQpJU8o0",
 			"type"			:"MobileGame"
 		},
 		{
