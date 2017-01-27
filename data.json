@@ -139,17 +139,17 @@
 			"type"			:"3DAnimation"
 		},
 		{
-			"title"			:"",
-			"status"		:"",
-			"team"			:"",
-			"description"	:"",
-			"picture"		:"",
+			"title"			:"肯納鎮",
+			"status"		:"on",
+			"team"			:"張友瀞、薛雅心、房尉恆、王于欣、李亭儀、郭溫舜",
+			"description"	:"肯納症是俗稱的自閉症<br>運用多媒體的方式介紹肯納症。",
+			"picture"		:"http://i.imgur.com/v9P83iu.png",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
-			"tags"			:"",
+			"tags"			:"多媒體",
 			"site_link"		:"",
 			"vedio_link"	:"",
-			"type"			:""
+			"type"			:"Multimedia"
 		},
 		{
 			"title"			:"",
