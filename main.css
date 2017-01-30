@@ -447,7 +447,7 @@ l,p,h1,h2,h3{
 	#searchShow{
 		padding:0px;
 		text-align: center;
-		height:200px;
+		height:240px;
 	}
 	#searchShow p{
 		height:60px;
@@ -456,9 +456,9 @@ l,p,h1,h2,h3{
 	#backAllList{
 		height:60px;
 		float:none;
-		padding:20px;
 		border-style: none;
 		border-bottom: 1px solid rgba(227, 216, 169, 0.2);
+		padding:40px;
 	}
 	#searchP{
 		padding:20px;
@@ -475,7 +475,7 @@ l,p,h1,h2,h3{
 	
 	
 	#information{		
-		padding:0px 20px;
+		padding:0px 10%;
 	}	
 	
 	.unit{	
@@ -579,6 +579,11 @@ l,p,h1,h2,h3{
 		width:80%;
 		height:80px;
 		font-size: 35px;
+	}
+	#serachBtn{
+		width:80%;
+		padding:10px 5px;
+		margin:20px;
 	}
 	
 	
