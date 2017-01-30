@@ -724,7 +724,15 @@ l,p,h1,h2,h3{
 		line-height: 65px;
 	}	
 	.id l{
-		opacity: 0.5;
+		transition			:opacity 0.5s;
+		-moz-transition		:opacity 0.5s;
+		-webkit-transition	:opacity 0.5s;
+		-o-transition		:opacity 0.5s;
+		
+		opacity: 0.2;
+	}
+	.id:hover l{
+		opacity: 0.6;
 	}
 	.team p{
 		line-height: 30px;
