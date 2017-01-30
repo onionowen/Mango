@@ -13,25 +13,18 @@ $(function(){
 	
 	$("#searchShow").hide();
 	
+	SetSearchSetting_Sample();
 	if (HashCheck() == false){
 		AppendUnit();
 	}
 	
 	$("#serachBtn").click(function(){
-		Search($("#search").val());
-		$("#search").blur();
+		StartSearch();
 	});
 	
 	$("#search").keypress(function(e){
 		if(e.which == 13){
-			if ($("#search").val() == ""){
-				root.html("");
-				AppendUnit();
-			}
-			else{				
-				Search($("#search").val());
-			}
-			$("#search").blur();
+			StartSearch();
 		}	
 	})
 	
@@ -51,6 +44,17 @@ $(function(){
 	
 });
 
+function StartSearch(){
+	if ($("#search").val() == ""){
+		root.html("");
+		AppendUnit();
+	}
+	else{				
+		SetSearchSetting_Sample();
+		Search($("#search").val());
+	}
+	$("#search").blur();
+}
 function SetInformation(){
 	
 	$("#updateTime").text(information["update_time"]);
@@ -106,19 +110,7 @@ var unitDefaultProperty = [
 	"",
 	""
 ];
-var SearchSetting = {
-	"title":true,
-	"type":true,
-	"tags":true,
-	"university":true,
-	"department":true,
-	"team":true,
-	"description":true,
-	"picture":true,
-	"site_link":true,
-	"vedio_link":true,
-	"id":true
-};
+var SearchSetting;
 
 function SetSearchSetting(T){
 	
@@ -135,6 +127,21 @@ function SetSearchSetting(T){
 	}
 }	
 
+function SetSearchSetting_Sample(){	
+	SearchSetting = {
+		"title":true,
+		"type":true,
+		"tags":true,
+		"university":true,
+		"department":true,
+		"team":true,
+		"description":false,
+		"picture":false,
+		"site_link":false,
+		"vedio_link":false,
+		"id":true
+	};
+}
 
 
 var model;
@@ -254,7 +261,7 @@ function Shuffle(array) {
 
 
 
-function Search(txt){
+function Search(txt){	
 	
 	if (txt == "") 		return;
 	
@@ -275,10 +282,6 @@ function Search(txt){
 				
 				if (SearchSetting[property] == false) continue;
 				
-				if (property=="description") continue;
-				if (property=="picture") continue;
-				if (property=="site_link") continue;
-				if (property=="vedio_link") continue;
 				
 				if (unit[property].toUpperCase().indexOf(txt.toUpperCase()) != -1){
 					conf = true;
@@ -303,7 +306,6 @@ function Search(txt){
 		
 	GoTop();
 	
-	SetSearchSetting(true);
 }
 
 
@@ -316,16 +318,11 @@ function RegEvent(){
 		});
 	});
 	
-	$(".tags p").each(function(){
-		$(this).click(function(){
-			var str = $(this).text();			
-			Search(str);
-		});
-	})
 	
-	$(".university p:first-child").each(function(){
+	$(".university p:first-child, .tags p").each(function(){
 		$(this).click(function(){
-			var str = $(this).text();			
+			var str = $(this).text();
+			SetSearchSetting_Sample();
 			Search(str);
 		});
 	})
