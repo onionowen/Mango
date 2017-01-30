@@ -11,7 +11,11 @@ $(function(){
 	
 	SetInformation();
 	
-	AppendUnit();
+	$("#searchShow").hide();
+	
+	if (HashCheck() == false){
+		AppendUnit();
+	}
 	
 	$("#serachBtn").click(function(){
 		Search($("#search").val());
@@ -35,11 +39,12 @@ $(function(){
 		$("#toolBar").toggle();
 	});
 	
-	$("#backAllList").hide();
+	
 	$("#backAllList").click(function(){		
 		root.html("");
 		AppendUnit();
 	});
+	
 });
 
 function SetInformation(){
@@ -47,6 +52,27 @@ function SetInformation(){
 	$("#updateTime").text(information["update_time"]);
 	$("#bulletin").html(information["bulletin"]);
 	$("#hotTags").html(MakeTags(information["hot_tags"]));
+}
+
+function HashCheck(){
+	
+	if(location.hash == "") return false;
+	
+	var url_hash = location.hash.replace("#","");
+	url_hash = decodeURIComponent(url_hash);	//解碼
+			//encodeURIComponent(url_hash));	//轉碼
+	
+	var sp = url_hash.indexOf("=");
+	if (sp != -1){
+		var head = url_hash.substring(0, sp);
+		var tail = url_hash.substr(sp + 1);
+
+		var searchHeadList = head.split(",");
+		SetSearchSetting(searchHeadList);
+		Search(tail);
+	}
+	
+	return true;
 }
 
 
@@ -60,7 +86,8 @@ var unitPropertyList = [
 	"description",
 	"picture",
 	"site_link",
-	"vedio_link"
+	"vedio_link",
+	"id"
 ];
 var unitDefaultProperty = [
 	"沒有標題",
@@ -72,8 +99,39 @@ var unitDefaultProperty = [
 	"尚無內容。",
 	"pic/mango_sq.svg",
 	"",
+	"",
 	""
 ];
+var SearchSetting = {
+	"title":true,
+	"type":true,
+	"tags":true,
+	"university":true,
+	"department":true,
+	"team":true,
+	"description":true,
+	"picture":true,
+	"site_link":true,
+	"vedio_link":true,
+	"id":true
+};
+
+function SetSearchSetting(T){
+	
+	if (Array.isArray(T) == true){
+		SetSearchSetting(false);		
+		for(var i=0;i<T.length;i++){
+			SearchSetting[T[i]] = true;
+		}
+	}
+	else{
+		for(var i=0;i<unitPropertyList.length;i++){
+			SearchSetting[unitPropertyList[i]] = (T == true);
+		}
+	}
+}	
+
+
 
 var model;
 var root;
@@ -89,7 +147,7 @@ function CreateUnit(inx){
 	
 	
 	if (unitList[inx] == null) 			return null;
-	if (unitList[inx]["status"] == "") 	return null;
+	if (unitList[inx]["id"] == "") 		return null;
 	
 	clone = clone.replace("[id]","unit-" + inx).replace("[index]",inx);
 	
@@ -124,7 +182,7 @@ function MakeTags(tags){
 
 function AppendUnit(){	
 	
-	$("#backAllList").hide();
+	$("#searchShow").hide();
 	for ( var i=0; i<unitList.length; i++ ){
 		var unit = CreateUnit(i);
 		if (unit != null){
@@ -190,14 +248,16 @@ function Shuffle(array) {
 	return array;
 }
 
+
+
 function Search(txt){
 	
 	if (txt == "") 		return;
 	
 	root.html("");
-	
-	$("#search").val(txt);
-	$("#backAllList").show();
+		
+	$(".searchTxt").text(txt);
+	$("#searchShow").show();
 	
 	var conf_count = 0;
 	for ( var i=0; i<unitList.length; i++ ){
@@ -208,6 +268,8 @@ function Search(txt){
 			var conf = false;
 			for(var p=0; p<unitPropertyList.length ;p++){
 				var property = unitPropertyList[p];
+				
+				if (SearchSetting[property] == false) continue;
 				
 				if (property=="description") continue;
 				if (property=="picture") continue;
@@ -234,8 +296,10 @@ function Search(txt){
 	else{
 		RegEvent();
 	}
+		
+	GoTop();
 	
-	GoTop();	
+	SetSearchSetting(true);
 }
 
 
