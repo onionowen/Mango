@@ -39,7 +39,7 @@ img {
 body,html{
 	font-family:"Noto Sans TC","Noto Sans JK","微軟正黑體";
 	/*background-color:  rgba(248, 210, 41, 0.7);*/
-	background-color:rgba(248, 210, 41, 0);
+	background-color:rgba(226, 220, 194, 0);
 	text-align: center;
 	outline: none;
 }
@@ -108,12 +108,35 @@ l,p,h1,h2,h3{
 	display: inline;
 }
 
+#searchShow{
+	background-color: #2eba59;
+	height:50px;
+	text-align: left;
+}
+#searchShow p{
+	color:white;
+	height:40px;
+	display: inline-block;
+	line-height: 40px;
+}
 #backAllList{
-	padding:20px 0;
-	width:100%;
+	height:40px;
+	float:left;
 	cursor: pointer;
-	border-bottom: 1px solid rgba(227, 216, 169, 0.6);
-	
+	padding:5px 30px;
+	border-right: 1px solid rgba(227, 216, 169, 0.2);
+}
+#searchP{
+	padding:5px 20px;
+	display: inline-block;
+}
+#searchP img{
+	height:30px;
+	padding: 5px;
+	float:left;
+}
+#searchP p{
+	float:left;
 }
 
 #nav{
@@ -421,9 +444,36 @@ l,p,h1,h2,h3{
 		padding:0;
   	}
 	
-	#backAllList{
-		padding:40px 0;
+	#searchShow{
+		padding:0px;
+		text-align: center;
+		height:200px;
 	}
+	#searchShow p{
+		height:60px;
+		line-height: 60px;
+	}
+	#backAllList{
+		height:60px;
+		float:none;
+		padding:20px;
+		border-style: none;
+		border-bottom: 1px solid rgba(227, 216, 169, 0.2);
+	}
+	#searchP{
+		padding:20px;
+	}
+	#searchP img{
+		height:50px;
+		padding: 5px;
+		float:left;
+	}
+	#searchP p{
+		float:left;
+	}
+	
+	
+	
 	#information{		
 		padding:0px 20px;
 	}	
@@ -767,12 +817,15 @@ l,p,h1,h2,h3{
 		display: none;
 	}
 	.happy{
+		box-sizing: border-box;
 		padding:20px;
 		background-color: red;
 		color:black;
 		font-family: "標楷體";
 		font-size: 30px;
 		cursor: default;
+		margin: auto;
+		
 	}
 	.pc-hide{
 		display: none;
