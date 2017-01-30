@@ -45,6 +45,10 @@ $(function(){
 		AppendUnit();
 	});
 	
+	$(window).bind("hashchange",function(){
+		HashCheck();
+	});
+	
 });
 
 function SetInformation(){
@@ -291,7 +295,7 @@ function Search(txt){
 	}
 	
 	if (conf_count == 0){
-		$("#root").append("<br><br><div style='opacity:0.5;'><h3>糟糕</h3><p>找不到符合的資料</p></div><br>");
+		$("#root").append("<br><br><div style='opacity:0.5;'><h3>糟糕！</h3><br><p>找不到符合的資料</p></div><br>");
 	}
 	else{
 		RegEvent();
