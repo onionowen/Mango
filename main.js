@@ -14,9 +14,9 @@ $(function(){
 	$("#searchShow").hide();
 	
 	SetSearchSetting_Sample();
-	if (HashCheck() == false){
-		AppendUnit();
-	}
+	AppendUnit();
+	
+	HashCheck();
 	
 	$("#serachBtn").click(function(){
 		StartSearch();
@@ -33,9 +33,10 @@ $(function(){
 	});
 	
 	
-	$("#backAllList").click(function(){		
-		root.html("");
-		AppendUnit();
+	$("#backAllList").click(function(){	
+		$(".unit").show();
+		$("#searchShow").hide();		
+		$("#cantSearch").hide();
 	});
 	
 	$(window).bind("hashchange",function(){
@@ -83,6 +84,30 @@ function HashCheck(){
 	return true;
 }
 
+function RegEvent(){
+	
+	$(".unit").each(function(){
+		$(this).click(function(){
+			$(this).toggleClass("fold");
+		});
+	});	
+	
+	$(".university p:first-child, .tags p").each(function(){
+		$(this).click(function(){
+			var str = $(this).text();
+			SetSearchSetting_Sample();
+			Search(str);
+		});
+	})	
+	
+	$(".linkDiv a[href='']").addClass("deadLink").removeAttr("href");
+	
+}
+
+
+function GoTop(){	
+	$("html,body").animate({scrollTop: 0}, 300);
+}
 
 var unitPropertyList = [
 	"title",
@@ -160,14 +185,15 @@ function CreateUnit(inx){
 	if (unitList[inx] == null) 			return null;
 	if (unitList[inx]["id"] == "") 		return null;
 	
-	clone = clone.replace("[id]","unit-" + inx).replace("[index]",inx);
 	
 	for (var i=0; i<unitPropertyList.length;i++){
+		
 		
 		var unitProperty = unitList[inx][unitPropertyList[i]];
 		if (unitProperty == "") unitProperty = unitDefaultProperty[i];
 		
-		if (unitPropertyList[i] == "tags") unitProperty = MakeTags(unitProperty);			
+		if (unitPropertyList[i] == "tags") unitProperty = MakeTags(unitProperty);	
+		if (unitPropertyList[i] == "id") clone = clone.replace(/\[id]/g,unitProperty).replace("[index]",inx);
 		
 		clone = clone.replace("[" + unitPropertyList[i] + "]", unitProperty);
 		
@@ -193,7 +219,6 @@ function MakeTags(tags){
 
 function AppendUnit(){	
 	
-	$("#searchShow").hide();
 	for ( var i=0; i<unitList.length; i++ ){
 		var unit = CreateUnit(i);
 		if (unit != null){
@@ -264,78 +289,50 @@ function Shuffle(array) {
 function Search(txt){	
 	
 	if (txt == "") 		return;
-	
-	root.html("");
-		
+			
 	$(".searchTxt").text(txt);
 	$("#searchShow").show();
 	
-	var conf_count = 0;
+	var list = [];
 	for ( var i=0; i<unitList.length; i++ ){
 		
-		var unit = unitList[i];		
-		if (unit != null){
+		var unit = unitList[i];
+		
+		if (unit == null) 		continue;
+		if (unit["id"] == "") 	continue;		
 			
-			var conf = false;
-			for(var p=0; p<unitPropertyList.length ;p++){
-				var property = unitPropertyList[p];
-				
-				if (SearchSetting[property] == false) continue;
-				
-				
-				if (unit[property].toUpperCase().indexOf(txt.toUpperCase()) != -1){
-					conf = true;
-					break;
-				}
+		for(var p=0; p<unitPropertyList.length ;p++){
+			var property = unitPropertyList[p];
+			if (SearchSetting[property] == false) continue;
+			if (unit[property].toUpperCase().indexOf(txt.toUpperCase()) != -1){
+				list.push(i);
+				break;
 			}
-			
-			if(conf == true){			
-				conf_count++;
-				var unit = CreateUnit(i);
-				$("#root").append(unit);
-			}			
-		}		
+		}	
 	}
 	
-	if (conf_count == 0){
-		$("#root").append("<br><br><div style='opacity:0.5;'><h3>糟糕！</h3><br><p>找不到符合的資料</p></div><br>");
+	if (list.length > 0){
+		MakeList(list);
+		$("#cantSearch").hide();
 	}
 	else{
-		RegEvent();
+		$(".unit").hide();
+		$("#cantSearch").show();
 	}
 		
 	GoTop();
+		
+}
+
+function MakeList(arr){
 	
+	$(".unit").hide();
+	for (var i=0;i<arr.length;i++){
+		$("#" + unitList[arr[i]]["id"]).show();
+	}
 }
 
 
-
-function RegEvent(){
-	
-	$(".unit").each(function(){
-		$(this).click(function(){
-			$(this).toggleClass("fold");
-		});
-	});
-	
-	
-	$(".university p:first-child, .tags p").each(function(){
-		$(this).click(function(){
-			var str = $(this).text();
-			SetSearchSetting_Sample();
-			Search(str);
-		});
-	})
-	
-	
-	$(".linkDiv a[href='']").addClass("deadLink").removeAttr("href");
-	
-}
-
-
-function GoTop(){	
-	$("html,body").animate({scrollTop: 0}, 300);
-}
 
 
 
