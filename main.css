@@ -283,7 +283,7 @@ l,p,h1,h2,h3{
 	padding:0 10px;
 }
 .title p{
-	line-height: 60px;
+	line-height: 50px;
 	font-size: 25px;
 	font-weight: 600;
 }
@@ -295,6 +295,11 @@ l,p,h1,h2,h3{
 }
 .team p{
 	font-weight: 500;
+}
+.id{
+	padding:0 10px;
+	opacity: 0.3px;
+	text-align: left;
 }
 
 .foldDiv{
@@ -437,6 +442,18 @@ l,p,h1,h2,h3{
 
 @media (max-width: 1200px){
 	
+	l,p,h1,h2,h3{	line-height: 1.6;	}
+	l	{	font-size: 23px;	}
+	p	{	font-size: 30px;	}
+	h3	{	font-size: 40px;	}
+	h2	{	font-size: 50px;	}
+	h1	{	font-size: 60px;	}
+
+	.LOGO-s	{	height:60px;	}
+	.LOGO-m	{	height:100px;	}
+	.LOGO-l	{	height:150px;	}
+	.LOGO-xl{	height:200px;	}
+	
   	.container {
 		box-sizing: border-box;
     	width: 100%;
@@ -498,7 +515,7 @@ l,p,h1,h2,h3{
 		padding-right: 20px;
 	}
 	.r-div{		
-		padding-top: 50px;
+		padding-top: 30px;
 	}
 	.l-div img{
 		width:90%;
@@ -523,6 +540,13 @@ l,p,h1,h2,h3{
 		line-height: 60px;
 		font-size: 45px;
 		font-weight: normal;
+	}
+	
+	.id{
+		padding:0 10px;
+	}
+	.id l{
+		opacity: 0.3;
 	}
 	
 	.team p{
@@ -586,18 +610,6 @@ l,p,h1,h2,h3{
 		margin:20px;
 	}
 	
-	
-	l,p,h1,h2,h3{	line-height: 1.6;	}
-	l	{	font-size: 23px;	}
-	p	{	font-size: 30px;	}
-	h3	{	font-size: 40px;	}
-	h2	{	font-size: 50px;	}
-	h1	{	font-size: 60px;	}
-
-	.LOGO-s	{	height:60px;	}
-	.LOGO-m	{	height:100px;	}
-	.LOGO-l	{	height:150px;	}
-	.LOGO-xl{	height:200px;	}
 	
 	
 	
@@ -708,10 +720,12 @@ l,p,h1,h2,h3{
 		width:800px;
 	}
 	.title p{
-		height: 80px;
-		line-height: 80px;
+		height: 65px;
+		line-height: 65px;
+	}	
+	.id l{
+		opacity: 0.5;
 	}
-	
 	.team p{
 		line-height: 30px;
 		font-size: 18px;
