@@ -9,13 +9,13 @@
 	[
 		{
 			"title"			:"DROOM 夢門",
-			"status"		:"on",
+			"id"			:"Dooream",
 			"team"			:"孫宇、李思穎",
 			"description"	:"DROOM是一款移動平台的益智解謎遊戲。<br>透過吃掉地圖上的球來相加或抵消、運用地圖中的各種機關，以達成過關條件。",
 			"picture"		:"https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/15109635_122594768222838_3551367689575508412_n.png?oh=577958d2d0b24102c1221e4441e75097&oe=590367DE",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
-			"tags"			:"益智 解謎 LowPoly Puzzle Mobile",
+			"tags"			:"益智 解謎 遊戲 LowPoly Puzzle",
 			"site_link"		:"https://www.facebook.com/122589321556716/",
 			"vedio_link"	:"https://www.youtube.com/watch?v=68_ngZhCrh0&feature=youtu.be",
 			"type"			:"MobileGame"
@@ -23,7 +23,7 @@
 		},
 		{
 			"title"			:"墨術",
-			"status"		:"on",
+			"id"			:"Magixel",
 			"team"			:"國際宅宅interNerdtion",
 			"description"	:"主角可使用三種屬性的技能，分別是火、冰和雷，每種屬性皆有兩個一般技能和一個大絕招。施放大絕招後，該屬性會被禁用三十秒。玩家可以隨時因應關卡的不同或是個人喜好去切換屬性來遊玩，也可以選擇以三十秒不能使用該屬性技能為代價，來施放強力的大絕招。",
 			"picture"		:"http://i.imgur.com/Rhsq4ln.jpg",
@@ -36,7 +36,7 @@
 		},
 		{
 			"title"			:"終焉的迴響：護界者之歌",
-			"status"		:"",
+			"id"			:"",
 			"team"			:"",
 			"description"	:"",
 			"picture"		:"https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/14991919_180035512457526_2948898398882703169_n.png?oh=3d9cfe8e7410c1a5e49dce661f8eed3a&oe=5901CDCC",
@@ -49,7 +49,7 @@
 		},
 		{
 			"title"			:"Fred",
-			"status"		:"on",
+			"id"			:"FRonySed",
 			"team"			:"曹榮璇、傅芷妍、宋翊瑄",
 			"description"	:"主角Fred因為好奇外面多彩的世界而興起想離開北極的念頭，而展開的探索旅程。讓我們來跟主角Fred一起遊歷這段新路旅程吧！",
 			"picture"		:"http://i.imgur.com/q4kq0DP.jpg",
@@ -62,7 +62,7 @@
 		},
 		{
 			"title"			:"冶鳥",
-			"status"		:"on",
+			"id"			:"BFlyrd",
 			"team"			:"六鳥戰隊",
 			"description"	:"天生殘缺的鳥人少女想飛的故事。",
 			"picture"		:"http://i.imgur.com/YlIBOwE.jpg",
@@ -75,7 +75,7 @@
 		},
 		{
 			"title"			:"Vitaria",
-			"status"		:"on",
+			"id"			:"ViEndie",
 			"team"			:"END研究室",
 			"description"	:"一對男女在地球末日時發生的故事。",
 			"picture"		:"",
@@ -88,7 +88,7 @@
 		},
 		{
 			"title"			:"喬伊塔號",
-			"status"		:"on",
+			"id"			:"Jovry",
 			"team"			:"隨鄭下海",
 			"description"	:"擁有虛擬實境(Virtual Reality)懸疑推理加上密室逃脫，玩家必須破解謎題、找齊所有線索才能破關。<br>此外，我們在遊戲設計了計時機制，除了增加遊玩時的緊張感，也希望玩家能夠有效利用時間順利完成任務。",
 			"picture"		:"http://i.imgur.com/lIyBdCh.jpg",
@@ -101,7 +101,7 @@
 		},
 		{
 			"title"			:"SOLAR",
-			"status"		:"on",
+			"id"			:"POPAR",
 			"team"			:"龐普動畫工作室",
 			"description"	:"太陽女神的光芒照耀著大地，然而泰爾與小洛卻只能生活在地底，他們懷抱著追求陽光的夢想，是甚麼讓他們勇往直前、接受未知的命運？而最終，他們是否真能實現夢想呢？",
 			"picture"		:"http://i.imgur.com/M3g67hQ.jpg",
@@ -114,7 +114,7 @@
 		},
 		{
 			"title"			:"濁DRAW",
-			"status"		:"on",
+			"id"			:"Drawterood",
 			"team"			:"WATERWOOD",
 			"description"	:"想描述一個人在創作時，現實和內心之間相互對應的變化。",
 			"picture"		:"http://i.imgur.com/ZLcF7pF.jpg",
@@ -127,7 +127,7 @@
 		},
 		{
 			"title"			:"羅慢死─RobotK's Life",
-			"status"		:"on",
+			"id"			:"RoBreak1st",
 			"team"			:"初早餐工作室 BreakFirst Studio",
 			"description"	:"羅伯高，一個個性固執的機器人，本和妻子生活在一顆小小的星球上，<br>直到妻子逝去，過去的照片卻讓他發現了妻子的出軌，<br>悲憤交集的他怎麼樣也無法釋懷，既而踏上自殺滅亡的道路…",
 			"picture"		:"https://c1.staticflickr.com/1/277/32547600005_5815f60d81_o.png",
@@ -140,7 +140,7 @@
 		},
 		{
 			"title"			:"肯納鎮",
-			"status"		:"on",
+			"id"			:"KnaCT",
 			"team"			:"張友瀞、薛雅心、房尉恆、王于欣、李亭儀、郭溫舜",
 			"description"	:"肯納症是俗稱的自閉症<br>運用多媒體的方式介紹肯納症。",
 			"picture"		:"http://i.imgur.com/v9P83iu.png",
@@ -153,7 +153,7 @@
 		},
 		{
 			"title"			:"",
-			"status"		:"",
+			"id"			:"",
 			"team"			:"",
 			"description"	:"",
 			"picture"		:"",
@@ -166,7 +166,7 @@
 		},
 		{
 			"title"			:"",
-			"status"		:"",
+			"id"			:"",
 			"team"			:"",
 			"description"	:"",
 			"picture"		:"",
@@ -179,7 +179,7 @@
 		},
 		{
 			"title"			:"",
-			"status"		:"",
+			"id"			:"",
 			"team"			:"",
 			"description"	:"",
 			"picture"		:"",
@@ -192,7 +192,7 @@
 		},
 		{
 			"title"			:"",
-			"status"		:"",
+			"id"			:"",
 			"team"			:"",
 			"description"	:"",
 			"picture"		:"",
