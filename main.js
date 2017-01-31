@@ -33,7 +33,7 @@ $(function(){
 	});
 	
 	
-	$("#backAllList").click(function(){	
+	$("#searchShow").click(function(){	
 		$(".unit").show();
 		$("#searchShow").hide();		
 		$("#cantSearch").hide();
