@@ -503,7 +503,7 @@ l,p,h1,h2,h3{
 	.unit{	
 		box-sizing: border-box;	
 		width:100%;
-		height:240px;
+		height:290px;
 		margin: 0px;
 		padding:20px ;
 		
@@ -516,11 +516,10 @@ l,p,h1,h2,h3{
 	}
 	
 	.l-div{
-		width:200px;
+		width:250px;
 		padding-right: 20px;
 	}
 	.r-div{		
-		padding-top: 30px;
 	}
 	.l-div img{
 		width:90%;
@@ -540,26 +539,33 @@ l,p,h1,h2,h3{
 		padding-top:30px;
 		padding-bottom:0;
 	}
+	.title{		
+		padding-top: 50px;
+		overflow-x: hidden;
+		width:300%;
+	}
 	.title p{
-		height:60px;
-		line-height: 60px;
-		font-size: 45px;
+		height:70px;
+		line-height: 70px;
+		font-size: 52px;
 		font-weight: normal;
-	}
-	
+	}	
 	.id{
-		padding:0 10px;
+		display: none;
 	}
-	.id l{
-		opacity: 0.3;
+	.team{
+		padding-top: 30px;
 	}
-	
 	.team p{
+		font-size: 35px;
 		font-weight: normal;
 	}
 	
 	.description{
 		height:auto;
+	}
+	.description p{
+		font-size: 35px;
 	}
 	
 	.unit .tags{
