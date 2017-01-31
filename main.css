@@ -535,7 +535,7 @@ l,p,h1,h2,h3{
 	.foldDiv{
 		box-sizing: border-box;
 		width:100%;
-		padding:20px;
+		padding:15px;
 		padding-top:30px;
 		padding-bottom:0;
 	}
@@ -563,9 +563,10 @@ l,p,h1,h2,h3{
 	
 	.description{
 		height:auto;
+		width:100%;
 	}
 	.description p{
-		font-size: 35px;
+		font-size: 38px;
 		display: inline-block;
 		width:100%;
 	}
