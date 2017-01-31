@@ -448,11 +448,11 @@ l,p,h1,h2,h3{
 @media (max-width: 1200px){
 	
 	l,p,h1,h2,h3{	line-height: 1.6;	}
-	l	{	font-size: 23px;	}
-	p	{	font-size: 30px;	}
-	h3	{	font-size: 40px;	}
-	h2	{	font-size: 50px;	}
-	h1	{	font-size: 60px;	}
+	l	{	font-size: 28px;	}
+	p	{	font-size: 35px;	}
+	h3	{	font-size: 45px;	}
+	h2	{	font-size: 55px;	}
+	h1	{	font-size: 65px;	}
 
 	.LOGO-s	{	height:60px;	}
 	.LOGO-m	{	height:100px;	}
