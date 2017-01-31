@@ -566,6 +566,8 @@ l,p,h1,h2,h3{
 	}
 	.description p{
 		font-size: 35px;
+		display: inline-block;
+		width:100%;
 	}
 	
 	.unit .tags{
