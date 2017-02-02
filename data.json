@@ -2,7 +2,7 @@
 	"Information":
 	{
 		"update_time"	:"01/28",
-		"bulletin"		:"打造屬於自己的網址：https://onionowen.github.io/Mango/#id=(作品id)",
+		"bulletin"		:"",
 		"hot_tags"		:""
 	},
 	"Mango":
@@ -12,7 +12,7 @@
 			"id"			:"Dooream",
 			"team"			:"孫宇、李思穎",
 			"description"	:"DROOM是一款移動平台的益智解謎遊戲。<br>透過吃掉地圖上的球來相加或抵消、運用地圖中的各種機關，以達成過關條件。",
-			"picture"		:"https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/15109635_122594768222838_3551367689575508412_n.png?oh=577958d2d0b24102c1221e4441e75097&oe=590367DE",
+			"picture"		:"http://i.imgur.com/lUBR5tm.jpg",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
 			"tags"			:"益智 解謎 遊戲 LowPoly Puzzle",
@@ -104,7 +104,7 @@
 			"id"			:"POPAR",
 			"team"			:"龐普動畫工作室",
 			"description"	:"太陽女神的光芒照耀著大地，然而泰爾與小洛卻只能生活在地底，他們懷抱著追求陽光的夢想，是甚麼讓他們勇往直前、接受未知的命運？而最終，他們是否真能實現夢想呢？",
-			"picture"		:"http://i.imgur.com/M3g67hQ.jpg",
+			"picture"		:"http://i.imgur.com/Q7J5BGG.jpg",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
 			"tags"			:"3D動畫 殭屍 Zombie 3Danimation 畢業製作",
@@ -117,7 +117,7 @@
 			"id"			:"Drawterood",
 			"team"			:"WATERWOOD",
 			"description"	:"想描述一個人在創作時，現實和內心之間相互對應的變化。",
-			"picture"		:"http://i.imgur.com/ZLcF7pF.jpg",
+			"picture"		:"http://i.imgur.com/6rjb5MG.jpg",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
 			"tags"			:"2D",
@@ -143,7 +143,7 @@
 			"id"			:"KnaCT",
 			"team"			:"張友瀞、薛雅心、房尉恆、王于欣、李亭儀、郭溫舜",
 			"description"	:"肯納症是俗稱的自閉症<br>運用多媒體的方式介紹肯納症。",
-			"picture"		:"http://i.imgur.com/v9P83iu.png",
+			"picture"		:"http://i.imgur.com/uC4QfYC.jpg",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
 			"tags"			:"多媒體",
