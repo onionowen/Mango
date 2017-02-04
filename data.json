@@ -1,7 +1,7 @@
 {
 	"Information":
 	{
-		"update_time"	:"01/28",
+		"update_time"	:"02/04",
 		"bulletin"		:"",
 		"hot_tags"		:""
 	},
@@ -18,7 +18,8 @@
 			"tags"			:"益智 解謎 遊戲 LowPoly Puzzle",
 			"site_link"		:"https://www.facebook.com/122589321556716/",
 			"vedio_link"	:"https://www.youtube.com/watch?v=68_ngZhCrh0&feature=youtu.be",
-			"type"			:"MobileGame"
+			"type"			:"MobileGame",
+			"show"			:"新一代設計展"
 			
 		},
 		{
@@ -32,7 +33,8 @@
 			"tags"			:"遊戲 2D RPG Pixel Mobile",
 			"site_link"		:"https://www.facebook.com/INT.Magink/",
 			"vedio_link"	:"https://www.youtube.com/watch?v=QOtZQpJU8o0",
-			"type"			:"MobileGame"
+			"type"			:"MobileGame",
+			"show"			:"新一代設計展"
 		},
 		{
 			"title"			:"終焉的迴響：護界者之歌",
@@ -45,7 +47,8 @@
 			"tags"			:"",
 			"site_link"		:"https://www.facebook.com/175755329552211/",
 			"vedio_link"	:"",
-			"type"			:"PCGame"
+			"type"			:"PCGame",
+			"show"			:"新一代設計展"
 		},
 		{
 			"title"			:"Fred",
@@ -58,7 +61,8 @@
 			"tags"			:"stopmoition animation polarregion rainforest desert",
 			"site_link"		:"",
 			"vedio_link"	:"",
-			"type"			:"StopMotion"
+			"type"			:"StopMotion",
+			"show"			:"新一代設計展"
 		},
 		{
 			"title"			:"冶鳥",
@@ -71,7 +75,8 @@
 			"tags"			:"鳥人 動畫",
 			"site_link"		:"https://www.facebook.com/%E5%86%B6%E9%B3%A5-274678192950742/",
 			"vedio_link"	:"",
-			"type"			:"2DAnimation"
+			"type"			:"2DAnimation",
+			"show"			:"新一代設計展"
 		},
 		{
 			"title"			:"Vitaria",
@@ -84,7 +89,8 @@
 			"tags"			:"",
 			"site_link"		:"",
 			"vedio_link"	:"",
-			"type"			:"2DAnimation"
+			"type"			:"2DAnimation",
+			"show"			:"新一代設計展"
 		},
 		{
 			"title"			:"喬伊塔號",
@@ -97,7 +103,8 @@
 			"tags"			:"VR 恐怖解謎 密室逃脫 HTCVive",
 			"site_link"		:"https://goo.gl/jRcraH",
 			"vedio_link"	:"",
-			"type"			:"VR"
+			"type"			:"VR",
+			"show"			:""
 		},
 		{
 			"title"			:"SOLAR",
@@ -110,7 +117,8 @@
 			"tags"			:"3D動畫 殭屍 Zombie 3Danimation 畢業製作",
 			"site_link"		:"https://www.facebook.com/-SOLAR-3D-Animation-233415760443220/",
 			"vedio_link"	:"",
-			"type"			:"3DAnimation"
+			"type"			:"3DAnimation",
+			"show"			:"新一代設計展"
 		},
 		{
 			"title"			:"濁DRAW",
@@ -123,7 +131,8 @@
 			"tags"			:"2D",
 			"site_link"		:"",
 			"vedio_link"	:"",
-			"type"			:"2DAnimation"
+			"type"			:"2DAnimation",
+			"show"			:"新一代設計展"
 		},
 		{
 			"title"			:"羅慢死─RobotK's Life",
@@ -136,7 +145,8 @@
 			"tags"			:"畢業製作 3D動畫 短片",
 			"site_link"		:"https://www.facebook.com/robotkslife/",
 			"vedio_link"	:"https://www.youtube.com/watch?v=tA8owx6vnOA",
-			"type"			:"3DAnimation"
+			"type"			:"3DAnimation",
+			"show"			:"新一代設計展"
 		},
 		{
 			"title"			:"肯納鎮",
@@ -149,7 +159,8 @@
 			"tags"			:"多媒體",
 			"site_link"		:"",
 			"vedio_link"	:"",
-			"type"			:"Multimedia"
+			"type"			:"Multimedia",
+			"show"			:"新一代設計展"
 		},
 		{
 			"title"			:"弑者生存Dead or alive",
@@ -162,7 +173,8 @@
 			"tags"			:"PCGame 畢業製作",
 			"site_link"		:"https://www.facebook.com/checknaodiu/",
 			"vedio_link"	:"https://youtu.be/GF5mYt92KUA",
-			"type"			:"PCGame"
+			"type"			:"PCGame",
+			"show"			:"新一代設計展 放視大賞"
 		},				
 		{
 			"title"			:"",
