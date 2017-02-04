@@ -152,6 +152,19 @@
 			"type"			:"Multimedia"
 		},
 		{
+			"title"			:"弑者生存Dead or alive",
+			"id"			:"Delive",
+			"team"			:"手去扭到製作團隊",
+			"description"	:"《弒者生存 Dead or Alive》是一款以 Unity3D 引擎所開發的第三人稱角色對戰遊戲，緊張刺激的對戰畫面及幽默有趣的角色動作，深深吸引青少年學生族群的喜愛。遊戲最多支援三位玩家一同對戰，扮演能力性質不同的三種角色，角色皆有酷炫的專屬技能，華麗的解放型態以及角色動作的細膩度絕對讓你身陷其中無法自拔。",
+			"picture"		:"http://i.imgur.com/iWh7yx7.jpg",
+			"university"	:"國立虎尾科技大學",
+			"department"	:"多媒體設計系",
+			"tags"			:"PCGame 畢業製作",
+			"site_link"		:"https://www.facebook.com/checknaodiu/",
+			"vedio_link"	:"https://youtu.be/GF5mYt92KUA",
+			"type"			:"PCGame"
+		},				
+		{
 			"title"			:"",
 			"id"			:"",
 			"team"			:"",
