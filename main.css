@@ -2,22 +2,25 @@
 
 #nav, #welcome{	
 	background-color: #3b5c79;
-	color: #eeeeee;
 }
 
-body, html{
+body, html, #us{
 	background-color: #27333e;
 }
 
-.unit, .container, #us, #bottom{
+.unit, .container{
 	background-color: #eaeaea;
+}
+
+#bottom{
+	background-color: transparent;
 }
 
 l,p,h1,h2,h3,#search{
 	color: #515247;
 }
 
-#information l{
+#information l, #us l{
 	color: #FFFFFF;
 }
 
@@ -35,6 +38,10 @@ l,p,h1,h2,h3,#search{
 #searchShow{
 	background-color: #34896c;
 }
+
+
+
+
 /*-----------------------------------*/
 
 html {
@@ -879,6 +886,11 @@ l,p,h1,h2,h3{
 	#toolBarToggle{
 		display: none;
 	}
+	
+	#content{
+		border-radius: 0 0 3px 3px;
+	}
+	
 	.happy{
 		box-sizing: border-box;
 		padding:20px;
