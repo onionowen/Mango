@@ -557,9 +557,10 @@ l,p,h1,h2,h3{
 	.foldDiv{
 		box-sizing: border-box;
 		width:100%;
-		padding:15px;
-		padding-top:30px;
-		padding-bottom:0;
+		margin:20px;
+		margin-left: 50px;
+		padding:0 65px;
+		border-left: 3px dashed rgba(0, 0, 0, 0.1);
 	}
 	.title{		
 		padding-top: 50px;
@@ -586,6 +587,7 @@ l,p,h1,h2,h3{
 	.description{
 		height:auto;
 		width:100%;
+		margin:60px 0;
 	}
 	.description p{
 		font-size: 38px;
@@ -671,8 +673,8 @@ l,p,h1,h2,h3{
 	}	
 	.linkDiv{
 		float:none;
-		text-align: center;
-		margin: 50px 0;
+		text-align: left;
+		margin: 80px 0 40px 0;
 		padding: 0px;
 		height:auto;
 		width:100%;
@@ -680,10 +682,12 @@ l,p,h1,h2,h3{
 	.linkDiv .linkbtn{
 		box-sizing: border-box;
 		height:100px;
-		width:49.5%;
+		width:45%;
+		
 		border-radius: 5px;
 		padding:10;
-		margin:0px;
+		margin:0;
+		margin-right:2%;
 	}
 	
 	#floatList{
