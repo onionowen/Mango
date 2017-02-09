@@ -557,7 +557,7 @@ l,p,h1,h2,h3{
 	.foldDiv{
 		box-sizing: border-box;
 		width:100%;
-		margin:20px;
+		margin:20px 0;
 		margin-left: 50px;
 		padding:0 65px;
 		border-left: 3px dashed rgba(0, 0, 0, 0.1);
