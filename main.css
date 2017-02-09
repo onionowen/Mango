@@ -39,6 +39,10 @@ l,p,h1,h2,h3,#search{
 	background-color: #34896c;
 }
 
+.fold{	
+	border-left-color: rgba(242, 226, 156, 1);		
+	border-right-color: rgba(242, 226, 156, 0);	
+}
 
 
 
@@ -533,8 +537,9 @@ l,p,h1,h2,h3{
 		border-right-style: solid;
 		border-left-width: 30px;
 		border-right-width: 30px;
+		
 		border-left-color: rgba(255, 215, 41, 0);		
-		border-right-color: rgba(255, 215, 41, 0);	
+		border-right-color: rgba(255, 215, 41, 0);
 	}
 	
 	.l-div{
@@ -550,17 +555,16 @@ l,p,h1,h2,h3{
 	
 	.fold{
 		height:auto;
-		border-left-color: rgba(255, 215, 41, 0.8);		
-		border-right-color: rgba(255, 215, 41, 0);	
 	}
 	
 	.foldDiv{
-		box-sizing: border-box;
-		width:90%;
-		margin:20px 0;
-		margin-left: 50px;
-		padding:0 15px 0 65px;
-		border-left: 3px dashed rgba(0, 0, 0, 0.1);
+		box-sizing:border-box;
+		width:100%;
+		margin:40px 0;
+		margin-left: 30px;
+		margin-right: -30px;
+		padding:0 50px;
+		border-left: 3px solid rgba(0, 0, 0, 0.1);
 	}
 	.title{		
 		padding-top: 50px;
@@ -587,7 +591,7 @@ l,p,h1,h2,h3{
 	.description{
 		height:auto;
 		width:100%;
-		margin:60px 0;
+		margin-bottom:60px;
 	}
 	.description p{
 		font-size: 38px;
@@ -674,7 +678,7 @@ l,p,h1,h2,h3{
 	.linkDiv{
 		float:none;
 		text-align: left;
-		margin: 80px 0 40px 0;
+		margin-top: 80px;
 		padding: 0px;
 		height:auto;
 		width:100%;
@@ -722,6 +726,17 @@ l,p,h1,h2,h3{
 
 @media (min-width: 1200px) {
 	
+	.unit:hover{
+		border-left-color: rgba(242, 226, 156, 0.8);
+		border-right-color: rgba(242, 226, 156, 0.8);
+	}
+
+	.fold:hover{
+		border-left-color: rgba(242, 226, 156, 1);
+	}
+	
+	/*----------------------------------*/
+	
   	.container {
 	  	width: 1000px;
 		padding: 0px;
@@ -748,10 +763,6 @@ l,p,h1,h2,h3{
 		-webkit-transition-duration :0.5s ;
 		-o-transition-duration 		:0.5s ;
 		
-	}
-	.unit:hover{
-		border-left-color: rgba(255, 215, 41, 0.4);
-		border-right-color:  rgba(255, 215, 41, 0.4);
 	}
 	.l-div{	
 		width:130px;
@@ -810,14 +821,14 @@ l,p,h1,h2,h3{
 		padding-right:60px;
 		
 		height:auto;
-		border-left: 20px solid rgba(255, 215, 41, 0.8);
+		border-left-width: 20px;
+		border-left-style:  solid;
 		border-right-width: 0px;
-		/*box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);*/
 	}	
 	.fold:hover{
-		border-left: 20px solid rgba(255, 215, 41, 0.8);
+		border-left-width: 20px;
+		border-left-style:  solid;
 		border-right-width: 0px;
-		border-right-color: rgba(255, 215, 41, 0);
 	}
 	
 	.foldDiv{	
