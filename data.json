@@ -1,7 +1,7 @@
 {
 	"Information":
 	{
-		"update_time"	:"02/04",
+		"update_time"	:"02/11",
 		"bulletin"		:"",
 		"hot_tags"		:""
 	},
@@ -175,6 +175,19 @@
 			"vedio_link"	:"https://youtu.be/GF5mYt92KUA",
 			"type"			:"PCGame",
 			"show"			:"新一代設計展 放視大賞"
+		},		
+		{
+			"title"			:"失調",
+			"id"			:"Kima",
+			"team"			:"senoma 無名影像工作室",
+			"description"	:"近期隨機殺人犯案件發生頻繁，面對這種現況，除了導致群眾惶恐與不安，媒體大多關注於這些殺人案件所產生的連帶效應，卻沒有去正視背後的原因到底為何。<br>是否因這個社會的壓抑潛在導致悲劇發生，我們想藉由畢業製作來闡述對現在社會的一種病態。",
+			"picture"		:"http://i.imgur.com/BwIhuaB.jpg",
+			"university"	:"大葉大學",
+			"department"	:"視覺傳達設計學系",
+			"tags"			:"劇情片 短片 畢業製作 失調  殺人案",
+			"site_link"		:"https://www.facebook.com/Senomastudio/",
+			"vedio_link"	:"",
+			"type"			:"Multimedia"
 		},				
 		{
 			"title"			:"",
