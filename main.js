@@ -11,6 +11,7 @@ $(function(){
 	
 	SetInformation();
 	
+	$("#vedioViewer").hide();
 	$("#searchShow").hide();
 	
 	SetSearchSetting_Sample();
@@ -31,13 +32,26 @@ $(function(){
 	$("#toolBarToggle").click(function(){
 		$("#toolBar").toggle();
 	});
-	
-	
+		
 	$("#searchShow").click(function(){	
 		$(".unit").show();
 		$("#searchShow").hide();		
 		$("#cantSearch").hide();
 	});
+	
+	$("#playerBack").click(function(){
+		$("#vedioViewer").fadeOut(500,function(){
+			$("#player").attr("src","");
+		});
+	});
+	
+	$(".vedioView-link[view-index!='']").click(function(){
+		var id = $(this).attr("view-index");
+		id= "https://www.youtube.com/embed/" + id;
+		$("#player").attr("src",id);
+		$("#vedioViewer").fadeIn(500);
+	})
+	
 	
 	$(window).bind("hashchange",function(){
 		HashCheck();
@@ -187,8 +201,7 @@ function CreateUnit(inx){
 	
 	
 	for (var i=0; i<unitPropertyList.length;i++){
-		
-		
+				
 		var unitProperty = unitList[inx][unitPropertyList[i]];
 		if (unitProperty == "") unitProperty = unitDefaultProperty[i];
 		
@@ -198,8 +211,47 @@ function CreateUnit(inx){
 		clone = clone.replace("[" + unitPropertyList[i] + "]", unitProperty);
 		
 	}	
+	
+	var viewID = GetViewID(unitList[inx]["vedio_link"]);
+	
+	clone = clone.replace("[view-index]",viewID);
+	
+	
 	return clone;	
 }
+function GetViewID(vediolink){
+	
+	//ViewPlayer
+	var viewID = "";
+	
+	if (vediolink != "") {
+		var n,e;
+		
+		var titlelist = [
+			"youtube.com/watch?v=",
+			"https://youtu.be/"
+		]
+		var s_title;		
+		for (var i=0 ; i <titlelist.length;i++){			
+			s_title = titlelist[i];
+			var ind = vediolink.indexOf(s_title);
+			if (ind != -1) break;
+		}		
+		n = ind + s_title.length;
+		
+		if (ind != -1){
+			
+			e = vediolink.indexOf("&");
+			if (e == -1)	e = vediolink.length;	
+						
+			viewID = vediolink.substring(n,e);
+			//alert(vediolink + "\n" + n + " - " + e + " : " + viewID);
+		}
+	}
+	
+	return viewID;
+}
+
 
 function MakeTags(tags){
 	
