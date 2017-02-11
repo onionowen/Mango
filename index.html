@@ -59,97 +59,108 @@
 				</div>
 
 			</div>	
-				<div id="content" class="container">
+			
+			<div id="content" class="container">
 
-					<div id="searchShow">
-						<div id="searchP">
-							<img src="pic/search.png"><p>取消搜尋</p><p>「</p><p class="searchTxt"></p><p>」</p>
-						</div>
+				<div id="searchShow">
+					<div id="searchP">
+						<img src="pic/search.png"><p>取消搜尋</p><p>「</p><p class="searchTxt"></p><p>」</p>
 					</div>
-					<div id="root">
-						<div class="unit" id="[id]" unit-index="[index]">
+				</div>
+				
+				
+				<div id="root">
+					<div class="unit" id="[id]" unit-index="[index]">
 
-							<div class="l-div">		
-								<img src="[picture]" class="pic"/>
+						<div class="l-div">		
+							<img src="[picture]" class="pic"/>
+						</div>
+
+						<div class="r-div">	
+
+							<div class="title">
+								<p>[title]</p>
 							</div>
 
-							<div class="r-div">	
-
-								<div class="title">
-									<p>[title]</p>
-								</div>
-
-								<div class="team">
-									<p>[team]</p>
-								</div>
-								<div class="id">
-									<l>[id]</l>					
-								</div>
-
+							<div class="team">
+								<p>[team]</p>
+							</div>
+							<div class="id">
+								<l>[id]</l>					
 							</div>
 
-								<div class="foldDiv">
+						</div>
+
+							<div class="foldDiv">
 
 
-									<div class="description">
-										<p>[description]</p>
-									</div>
+								<div class="description">
+									<p>[description]</p>
+								</div>
 
 
-									<div class="linkDiv">				
-										<a href="[vedio_link]" title="影片" class="linkbtn video-link" target="_blank">
-											<img src="pic/vedio.png"/><p>影片</p>
-										</a>					
-										<a href="[site_link]" title="網站" class="linkbtn site-link" target="_blank" >
-											<img src="pic/site.png"/><p>網站</p>
-										</a>		
-									</div>
-
-									<div class="tags">
-										[tags]
-									</div>
-									<div class="unitInfo hide">
-										<div class="university">
-											<p>[university]</p><p>[department]</p>
-										</div>				
-
+								<div class="linkDiv">			
+									<a href="[site_link]" title="網站" class="linkbtn site-link" target="_blank" >
+										<img src="pic/site.png"/><p>網站</p>
+									</a>	
+									<a href="[vedio_link]" title="影片" class="linkbtn video-link" target="_blank">
+										<img src="pic/vedio.png"/><p>影片</p>
+									</a>					
+									<div class="linkbtn vedioView-link mobile-hide" view-index="[view-index]">
+										<img src="pic/site.png"/><p>影片預覽</p>
 									</div>
 								</div>
 
-						</div>
+								<div class="tags">
+									[tags]
+								</div>
+								<div class="unitInfo hide">
+									<div class="university">
+										<p>[university]</p><p>[department]</p>
+									</div>				
+
+								</div>
+							</div>
+
 					</div>
-					<div>
-						<div id="cantSearch">
-							<h3>糟糕！</h3><br>
-							<p>找不到符合的資料</p>
-						</div>
+				</div>
+				<div>
+					<div id="cantSearch">
+						<h3>糟糕！</h3><br>
+						<p>找不到符合的資料</p>
 					</div>
+				</div>
 
-					<div id="bottom">
+				<div id="bottom">
 
-						<p>沒有你的作品嗎？</p><br>
-						<a class="linkbtn submit-link" href="https://docs.google.com/forms/d/e/1FAIpQLSe9ejcObomQ2Ld_TNEkV1dSodxy2HkbAiBgFTJMCnXy6XEuGg/viewform" title="提交"  target="_blank">
-							<img src="pic/submit.png"/><p>提交資訊</p>
-						</a><br>		
-						<l>提交的作品資訊，日後都可以做修改</l>
-
-					</div>	
+					<p>沒有你的作品嗎？</p><br>
+					<a class="linkbtn submit-link" href="https://docs.google.com/forms/d/e/1FAIpQLSe9ejcObomQ2Ld_TNEkV1dSodxy2HkbAiBgFTJMCnXy6XEuGg/viewform" title="提交"  target="_blank">
+						<img src="pic/submit.png"/><p>提交資訊</p>
+					</a><br>		
+					<l>提交的作品資訊，日後都可以做修改</l>
 
 				</div>	
 
-				<div id="us" class="container">
-					<!--<img src="pic/mango_sq.svg" class="LOGO LOGO-m" /><br>-->
-					<l>製作團隊：洋蔥、獵犬</l>
-				</div>
+			</div>	
 
-				<!--<img id="background" src="pic/background.jpg" class="_blur"/>-->
+			<div id="vedioViewer" class="mobile-hide">
+				<img src="pic/mango.svg" class="LOGO"/>
+				<iframe id="player" src="" frameborder="0" allowfullscreen autoplay></iframe>
+				<div id="playerBack"></div>
+			</div>
+			
+			<div id="us" class="container">
+				<!--<img src="pic/mango_sq.svg" class="LOGO LOGO-m" /><br>-->
+				<l>製作團隊：洋蔥、獵犬</l>
+			</div>
 
-				<div id="welcome">
-					<div id="welcomeMsg">
-						<img src="pic/mango_sq.svg" class="LOGO LOGO-xl"/><br><br>
-						<h3 id="welcomeMsgWord"></h3>
-					</div>
+			<div id="welcome">
+				<div id="welcomeMsg">
+					<img src="pic/mango_sq.svg" class="LOGO LOGO-xl"/><br><br>
+					<h3 id="welcomeMsgWord"></h3>
 				</div>
+			</div>
+			
 		</div>
 	</body>
 	
