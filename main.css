@@ -135,9 +135,6 @@ body,html{
 }
 
 
-.hide,hide{
-	display: none;
-}
 
 
 l{
@@ -443,16 +440,21 @@ l,p,h1,h2,h3{
 	background-color: #d82e25;
 	color: white;	
 }
+.vedioView-link{	
+	background-color: #e2961e;
+	color: white;
+}
 .submit-link{	
 	background-color: #673AB7;
 	color: white;
 	margin:20px;	
 }
-
 .search-link{	
 	background-color: #27333e;
 	margin:20px;	
 }
+
+
 #toolBar{
 	width:100%;
 	display: inline-block;
@@ -473,6 +475,12 @@ l,p,h1,h2,h3{
 	display: none;
 	opacity: 0.5;
 	padding:20px 0;
+}
+
+
+
+.hide,hide{
+	display: none;
 }
 
 @media (max-width: 1200px){
@@ -724,7 +732,7 @@ l,p,h1,h2,h3{
 		width:80px;
 	}
 	
-	.mobile-hide{
+	.mobile-hide, .hide, hide{
 		display: none;
 	}
 }
@@ -849,9 +857,9 @@ l,p,h1,h2,h3{
 		margin:10px 0;
 	}
 	.tags p{
-		padding:5px 15px;
+		padding:3px 10px;
 		margin:10px 10px 10px 0;
-		border-radius: 15px;
+		border-radius: 12px;
 		opacity: 0.3;
 		
 		transition			:opacity 0.8s;
@@ -911,6 +919,47 @@ l,p,h1,h2,h3{
 		border-radius: 0 0 3px 3px;
 	}
 	
+	.vedioView-link[view-index ='']{
+		display: none;
+	}
+	
+	
+	#vedioViewer{
+		position: fixed;
+		display: inline-block;
+		width:100%;
+		text-align: center;
+		top:50%;
+		left: 0;
+	}
+	#player{
+		z-index: 2;
+		width:900px;
+		height:550px;
+		margin-top:-275px;
+	}
+	#playerBack{
+		z-index: -1;
+		position: fixed;
+		display: inline-block;
+		background-color: rgba(0, 0, 0, 0.95);
+		left: 0;
+		top:0;
+		width:200%;
+		height:200%
+	}
+	#vedioViewer .LOGO{
+		position: fixed;
+		width:100px;
+		height: auto;
+		top:50px;
+		left: 50%;
+		margin-left: -50px;
+		opacity: 0.2;
+		
+	}
+	
+	
 	.happy{
 		box-sizing: border-box;
 		padding:20px;
@@ -922,7 +971,7 @@ l,p,h1,h2,h3{
 		margin: auto;
 		
 	}
-	.pc-hide{
+	.pc-hide, .hide, hide{
 		display: none;
 	}
 	
