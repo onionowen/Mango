@@ -1,8 +1,8 @@
 {
 	"Information":
 	{
-		"update_time"	:"02/11",
-		"bulletin"		:"",
+		"update_time"	:"02/16",
+		"bulletin"		:"注意提交格式好嗎",
 		"hot_tags"		:""
 	},
 	"Mango":
@@ -151,12 +151,12 @@
 		{
 			"title"			:"肯納鎮",
 			"id"			:"KnaCT",
-			"team"			:"張友瀞、薛雅心、房尉恆、王于欣、李亭儀、郭溫舜",
-			"description"	:"肯納症是俗稱的自閉症<br>運用多媒體的方式介紹肯納症。",
+			"team"			:"王于欣、張友瀞、郭溫舜、房蔚恆、李亭儀、薛雅心",
+			"description"	:"肯納症是俗稱的自閉症，<br>運用多媒體的方式介紹肯納症。",
 			"picture"		:"http://i.imgur.com/uC4QfYC.jpg",
 			"university"	:"銘傳大學",
 			"department"	:"數位媒體設計學系",
-			"tags"			:"多媒體",
+			"tags"			:"多媒體 自閉症 motiongraphics 互動網頁 3D",
 			"site_link"		:"",
 			"vedio_link"	:"",
 			"type"			:"Multimedia",
@@ -187,8 +187,37 @@
 			"tags"			:"劇情片 短片 畢業製作 失調  殺人案",
 			"site_link"		:"https://www.facebook.com/Senomastudio/",
 			"vedio_link"	:"",
-			"type"			:"Multimedia"
+			"type"			:"Multimedia",
+			"show"			:"新一代設計展 青春影展"
+		},		
+		{
+			"title"			:"造劇",
+			"id"			:"MidaLF",
+			"team"			:"許瑋晏、張哲瑋、劉宇謙、陳耀晨、蘇葳、張語涵",
+			"description"	:"聳動的社會頭條，藉由能使事件成真的畫筆造成社會動盪與不安",
+			"picture"		:"",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計學系",
+			"tags"			:"電影 微電影 社會議題 媒體識讀",
+			"site_link"		:"https://www.facebook.com/creatshowfanpage/?fref=ts",
+			"vedio_link"	:"",
+			"type"			:"Film",
+			"show"			:"新一代設計展, 放視大賞, 青春影展, 金穗獎"
 		},				
+		{
+			"title"			:"Teh Tarik",
+			"id"			:"TehLaTar",
+			"team"			:"龐普動畫工作室",
+			"description"	:"拉茶狂想曲，夢迴南洋的小故事",
+			"picture"		:"",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計學系",
+			"tags"			:"tehtarik malaysia kopitiam",
+			"site_link"		:"https://www.facebook.com/tehtarikanimation",
+			"vedio_link"	:"",
+			"type"			:"2DAnimation",
+			"show"			:"新一代設計展"
+		},		
 		{
 			"title"			:"",
 			"id"			:"",
