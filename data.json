@@ -1,9 +1,9 @@
 {
 	"Information":
 	{
-		"update_time"	:"02/16",
-		"bulletin"		:"注意提交格式好嗎",
-		"hot_tags"		:""
+		"update_time"	:"02/17",
+		"bulletin"		:"<br>※ 請注意提交格式，尤其是圖片。",
+		"hot_tags"		:"AA"
 	},
 	"Mango":
 	[
@@ -203,21 +203,21 @@
 			"vedio_link"	:"",
 			"type"			:"Film",
 			"show"			:"新一代設計展, 放視大賞, 青春影展, 金穗獎"
-		},				
+		},		
 		{
 			"title"			:"Teh Tarik",
 			"id"			:"TehLaTar",
-			"team"			:"龐普動畫工作室",
-			"description"	:"拉茶狂想曲，夢迴南洋的小故事",
-			"picture"		:"",
+			"team"			:"Pumped Animation Studio",
+			"description"	:"拉茶狂想，夢迴南洋",
+			"picture"		:"http://i.imgur.com/53bn7ue.jpg",
 			"university"	:"銘傳大學",
-			"department"	:"數位媒體設計學系",
-			"tags"			:"tehtarik malaysia kopitiam",
+			"department"	:"數位媒體設計系",
+			"tags"			:"tehtarik kopitiam malaysia 2Danimation",
 			"site_link"		:"https://www.facebook.com/tehtarikanimation",
 			"vedio_link"	:"",
 			"type"			:"2DAnimation",
 			"show"			:"新一代設計展"
-		},		
+		},
 		{
 			"title"			:"",
 			"id"			:"",
