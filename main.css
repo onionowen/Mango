@@ -941,6 +941,7 @@ l,p,h1,h2,h3{
 		z-index: 2;
 		width:900px;
 		height:550px;
+		margin-top:  -275px;
 	}
 	#playerBack{
 		z-index: -1;
