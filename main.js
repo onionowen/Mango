@@ -13,6 +13,7 @@ $(function(){
 	
 	$("#vedioViewer").hide();
 	$("#searchShow").hide();
+	$("#explain").hide();
 	
 	SetSearchSetting_Sample();
 	AppendUnit();
@@ -43,6 +44,10 @@ $(function(){
 		$("#vedioViewer").fadeOut(500,function(){
 			$("#player").attr("src","");
 		});
+	});
+	
+	$("#explainBtn").click(function(){
+		$("#explain").toggle();
 	});
 	
 	$(".vedioView-link[view-index!='']").click(function(){
