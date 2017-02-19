@@ -47,7 +47,7 @@ $(function(){
 	
 	$(".vedioView-link[view-index!='']").click(function(){
 		var id = $(this).attr("view-index");
-		id= "https://www.youtube.com/embed/" + id;
+		id= "https://www.youtube.com/embed/" + id ;//+ "&autoplay=1";
 		$("#player").attr("src",id);
 		$("#vedioViewer").fadeIn(500);
 	})
@@ -72,7 +72,34 @@ function StartSearch(){
 }
 function SetInformation(){
 	
-	$("#updateTime").text(information["update_time"]);
+	
+	var T = information["update_time"].split("/");
+	var now = new Date();
+	var update = new Date(now.getFullYear(),parseInt(T[0])-1,parseInt(T[1]));
+	var ago = (now - update)/86400000;
+	
+	var updateTime = "不知道什麼時候更新的。";
+	if (ago < (3 / 24))
+		updateTime = "幾小時前更新。";
+	else if (ago < 1)
+		updateTime = "今天剛更新。";
+	else if (ago < 2)
+		updateTime = "昨天才更新。";
+	else if (ago < 3)
+		updateTime = "前天更新。";
+	else if (ago < 4)
+		updateTime = "三天前更新。";
+	else if (ago < 5)
+		updateTime = "四天前更新。";
+	else if (ago < 7)
+		updateTime = "大約一周前更新。";
+	else if (ago < 14)
+		updateTime = "大約數周前更新。";
+	else if (ago < 30)
+		updateTime = "大約一個月前更新。";
+	
+	
+	$("#updateTime").text(updateTime);
 	$("#bulletin").html(information["bulletin"]);
 	$("#hotTags").html(MakeTags(information["hot_tags"]));
 }
