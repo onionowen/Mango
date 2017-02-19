@@ -34,6 +34,11 @@ l,p,h1,h2,h3,#search{
 	border-bottom-color: rgba(191, 196, 206, 0.4);
 	border-bottom-style: solid;
 }
+#explain{	
+	border-bottom-color: rgba(191, 196, 206, 0.6);
+	border-bottom-style: solid;
+	border-width: 1px;
+}
 
 .tags p{	
 	background-color:#3b5c79;
@@ -199,6 +204,17 @@ l,p,h1,h2,h3{
 
 #content{
 	text-align: center;
+}
+#explain{
+	text-align: left;
+}
+#explain .inner p:first-child{
+	font-weight: 800;
+	opacity: 1;
+}
+#explain .inner p{
+	font-weight: 500;
+	opacity: 0.8;
 }
 
 #root{
@@ -737,6 +753,17 @@ l,p,h1,h2,h3{
 		width:80px;
 	}
 	
+	#explain{
+		padding:60px 0px;
+	}
+	#explain p, #explain h1, #explain h2, #explain h3, #explain l{
+		line-height: 2.5;
+	}
+	#explain .inner{
+		padding:50px 70px;
+	}
+	
+	
 	.mobile-hide, .hide, hide{
 		display: none;
 	}
@@ -922,6 +949,16 @@ l,p,h1,h2,h3{
 	
 	#content{
 		border-radius: 0 0 3px 3px;
+	}
+	
+	#explain{
+		padding:30px 0px;
+	}
+	#explain p, #explain h1, #explain h2, #explain h3, #explain l{
+		line-height: 2
+	}
+	#explain .inner{
+		padding:20px 50px;
 	}
 	
 	.vedioView-link[view-index ='']{
