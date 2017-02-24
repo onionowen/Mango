@@ -1,7 +1,7 @@
 {
 	"Information":
 	{
-		"update_time"	:"02/17",
+		"update_time"	:"02/25",
 		"bulletin"		:"<br>※ 請注意提交格式，尤其是圖片。",
 		"hot_tags"		:""
 	},
@@ -218,6 +218,21 @@
 			"type"			:"2DAnimation",
 			"show"			:"新一代設計展"
 		},
+		{
+			"title"			:"WanderWorld",
+			"id"			:"WWdd",
+			"team"			:"Uncle與Uncle的夥伴們",
+			"description"	:"《WanderWorld》是講述一個小女孩掉進未知空間的故事，<br>玩家將扮演小女孩與他的夥伴們，一同探索這個神奇世界。",
+			"picture"		:"http://i.imgur.com/aJBNgpX.png",
+			"university"	:"國立臺中科技大學",
+			"department"	:"多媒體設計系",
+			"tags"			:"遊戲 夢幻 可愛 KUSO 童趣",
+			"site_link"		:"https://www.facebook.com/WanderWorldGame/",
+			"vedio_link"	:"https://youtu.be/7W8inDNNlDo",
+			"type"			:"MobileGame",
+			"show"			:"新一代設計展, 放視大賞"
+		},
+		
 		{
 			"title"			:"",
 			"id"			:"",
