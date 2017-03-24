@@ -232,6 +232,21 @@
 			"type"			:"MobileGame",
 			"show"			:"新一代設計展, 放視大賞"
 		},
+		{
+			"title"			:"PURE",
+			"id"			:"PurDia",
+			"team"			:"廖怡然、洪暄晴、劉子寧、邱皓暄、田明珠、莊凱婷",
+			"description"	:"小水滴在第一次執行降雨任務時意外的掉入下水道，見識到了完全不同的生活，從未有過的新鮮感讓他沉溺其中，然而光鮮亮麗的背後，黑暗的氣息正伺機而動。",
+			"picture"		:"http://i.imgur.com/H5ruIdB.jpg",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計學系",
+			"tags"			:"PURE",
+			"site_link"		:"https://www.facebook.com/PURE106/?ref=settings",
+			"vedio_link"	:"https://youtu.be/L89ctSG632M",
+			"type"			:"2DAnimation",
+			"show"			:"新一代設計展"
+		},
+		
 		
 		{
 			"title"			:"",
