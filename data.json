@@ -1,7 +1,7 @@
 {
 	"Information":
 	{
-		"update_time"	:"03/24",
+		"update_time"	:"03/26",
 		"bulletin"		:"<br>※ 請注意提交格式，尤其是圖片。",
 		"hot_tags"		:""
 	},
@@ -246,47 +246,21 @@
 			"type"			:"2DAnimation",
 			"show"			:"新一代設計展"
 		},
+		{
+			"title"			:"Wobblist",
+			"id"			:"Wbbbbbbbb",
+			"team"			:"爆肝果汁機",
+			"description"	:"Wobblist為一款音樂機台遊戲，以Leapmotion手控硬體為構想，創造出一款結合手控感應的音樂遊戲。<br>玩家將配合遊戲指示完成相對應的目標，而在這些關卡中蘊含的『秘密』規則，會在不同階段中讓玩家各別體會。",
+			"picture"		:"http://i.imgur.com/Y9F01yy.png",
+			"university"	:"中國科技大學",
+			"department"	:"數位多媒體設計系",
+			"tags"			:"Wobblist 音樂 機台 大型音樂機台 遊戲",
+			"site_link"		:"https://www.facebook.com/wobblist/",
+			"vedio_link"	:"https://www.youtube.com/watch?v=qlDOewjyejI",
+			"type"			:"Else",
+			"show"			:"新一代設計展, 放視大賞"
+		},
 		
-		
-		{
-			"title"			:"",
-			"id"			:"",
-			"team"			:"",
-			"description"	:"",
-			"picture"		:"",
-			"university"	:"銘傳大學",
-			"department"	:"數位媒體設計學系",
-			"tags"			:"",
-			"site_link"		:"",
-			"vedio_link"	:"",
-			"type"			:""
-		},
-		{
-			"title"			:"",
-			"id"			:"",
-			"team"			:"",
-			"description"	:"",
-			"picture"		:"",
-			"university"	:"銘傳大學",
-			"department"	:"數位媒體設計學系",
-			"tags"			:"",
-			"site_link"		:"",
-			"vedio_link"	:"",
-			"type"			:""
-		},
-		{
-			"title"			:"",
-			"id"			:"",
-			"team"			:"",
-			"description"	:"",
-			"picture"		:"",
-			"university"	:"銘傳大學",
-			"department"	:"數位媒體設計學系",
-			"tags"			:"",
-			"site_link"		:"",
-			"vedio_link"	:"",
-			"type"			:""
-		},
 		{
 			"title"			:"",
 			"id"			:"",
