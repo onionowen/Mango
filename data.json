@@ -260,6 +260,21 @@
 			"type"			:"Else",
 			"show"			:"新一代設計展, 放視大賞"
 		},
+		{
+			"title"			:"終焉的迴響-護界者之歌",
+			"id"			:"LaGonLas",
+			"team"			:"拉貢拉斯找金靂",
+			"description"	:"人類在慾望的驅使下引發了戰爭，世界受到戰事的影響產生了巨變，最終世界樹的力量也開始腐化，兩位主角為了導正平衡踏上旅程。<br>玩家藉由切換角色使用冰與火的技能，面對不同的敵人作出適當的選擇來戰鬥。",
+			"picture"		:"http://i.imgur.com/W5QOeD3.jpg",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計系",
+			"tags"			:"3D 動作 奇幻  PC 遊戲",
+			"site_link"		:"https://www.facebook.com/%E7%B5%82%E7%84%89%E7%9A%84%E8%BF%B4%E9%9F%BF-175755329552211/",
+			"vedio_link"	:"https://www.youtube.com/watch?v=BPdiwSKCrrM",
+			"type"			:"PCGame",
+			"show"			:"新一代設計展"
+		},
+		
 		
 		{
 			"title"			:"",
