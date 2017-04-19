@@ -1,7 +1,7 @@
 {
 	"Information":
 	{
-		"update_time"	:"03/29",
+		"update_time"	:"04/19",
 		"bulletin"		:"",
 		"hot_tags"		:""
 	},
@@ -203,21 +203,21 @@
 			"vedio_link"	:"https://www.youtube.com/channel/UCYPaJ6vxeU4fxsDZZ0fnZxQ",
 			"type"			:"Film",
 			"show"			:"新一代設計展, 放視大賞, 青春影展"
-		},		
+		},
 		{
 			"title"			:"Teh Tarik",
 			"id"			:"TehLaTar",
 			"team"			:"Pumped Animation Studio",
 			"description"	:"拉茶狂想，夢迴南洋",
-			"picture"		:"http://i.imgur.com/Q8JMdUN.jpg",
+			"picture"		:"http://i.imgur.com/ZWYtNsU.jpg",
 			"university"	:"銘傳大學",
-			"department"	:"數位媒體設計系",
-			"tags"			:"tehtarik kopitiam malaysia 2Danimation",
-			"site_link"		:"https://www.facebook.com/tehtarikanimation",
-			"vedio_link"	:"",
+			"department"	:"數位媒體設計學系",
+			"tags"			:"tehtarik 2Danimation malaysia kopitiam",
+			"site_link"		:"www.tehtarikanimation.com",
+			"vedio_link"	:"https://vimeo.com/210608212",
 			"type"			:"2DAnimation",
 			"show"			:"新一代設計展"
-		},
+		},		
 		{
 			"title"			:"WanderWorld",
 			"id"			:"WWdd",
@@ -274,6 +274,21 @@
 			"type"			:"PCGame",
 			"show"			:"新一代設計展"
 		},
+		{
+			"title"			:"Formation",
+			"id"			:"ForThun",
+			"team"			:"許舫翠、羅建檳、張鳳吟、譚志名",
+			"description"	:"在一個回收廠裡，有一顆機器人頭因意外被閃電擊中而被啟動了。迷惘的它，在看見電視廣告之後，決定要給自己組裝一個身體，成為完整的機器人。",
+			"picture"		:"http://i.imgur.com/pKTWbSg.jpg",
+			"university"	:"銘傳大學",
+			"department"	:"數位媒體設計學系",
+			"tags"			:"畢業製作 animation 3D robot",
+			"site_link"		:"",
+			"vedio_link"	:"",
+			"type"			:"3DAnimation",
+			"show"			:"新一代設計展"
+		},
+		
 		
 		
 		{
